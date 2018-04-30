@@ -4,12 +4,13 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 import Footer from './components/Footer/Footer';
+import Connect from './scenes/Connect/Connect';
 
 const Home = props => (
   <div>
     <h1>Home</h1>
     <p>Welcome home!</p>
-
+    <Connect />
     <Footer />
   </div>
 );
