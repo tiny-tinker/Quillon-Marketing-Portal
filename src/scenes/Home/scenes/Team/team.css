@@ -1,0 +1,32 @@
+.team-section {
+  background-color: #01013c;
+}
+.team-section .container .title {
+  font-size: 50px;
+}
+.team-section .container .teamDescription {
+  font-size: 21px;
+  width: 70%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 992px) {
+  .team-section .container .teamDescription {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .team-section .container .teamDescription {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .team-section .container .teamDescription {
+    font-size: 16px;
+    width: 90%;
+  }
+}
+.team-section .members .carousel .carousel-inner .carousel-item .profile {
+  background-color: white;
+  width: 100%;
+  height: 500px;
+}
