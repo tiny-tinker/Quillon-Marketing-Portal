@@ -1,0 +1,19 @@
+.footer{
+  background-color: #01013c;
+  padding-bottom:150px;
+  .container{
+    .title{
+      margin-bottom:40px;
+    }
+    .row{
+      .seven-cols{
+        .col-1{
+          width: 14.285714285714285714285714285714%;
+          *width: 14.285714285714285714285714285714%;
+          flex:none;
+          max-width:none;
+        }
+      }
+    }
+  }
+}
