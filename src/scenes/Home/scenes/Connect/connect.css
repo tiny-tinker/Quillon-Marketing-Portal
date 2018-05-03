@@ -1,0 +1,13 @@
+.connect-section {
+  background-color: #01013c;
+}
+.connect-section .container .title {
+  font-size: 50px;
+}
+.connect-section .container .signUpTitle {
+  font-size: 23px;
+}
+.connect-section .container .signUpDescription {
+  width: 290px;
+  margin: 0 auto;
+}

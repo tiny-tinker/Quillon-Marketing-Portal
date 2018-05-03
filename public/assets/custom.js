@@ -1,0 +1,19 @@
+$(document).ready(function() {
+    //------------- newsletter signUp ---------------//
+    (function (id, src) {
+        if (document.getElementById(id)) { return; }
+        const js = document.createElement('script');
+        js.src = src;
+        js.type = 'text/javascript';
+        js.id = id;
+        const e = document.getElementsByTagName('script')[0];
+        e.parentNode.insertBefore(js, e);
+    })('hs-analytics', '//js.hs-analytics.net/analytics/1521740700000/4082766.js');
+    hbspt.forms.create({
+        portalId: "4082766",
+        formId: "ba8d0f4b-f507-4750-a97c-cfc2e0b95c37",
+        css: ""
+    });
+    const formId = document.getElementsByClassName('hbspt-form')[0].id;
+    $(`#`.concat(formId)).detach().appendTo('#newsletterSignUpDiv');
+});

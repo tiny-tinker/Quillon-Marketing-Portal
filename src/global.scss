@@ -1,0 +1,24 @@
+//--------- newsletter signUp style ----------//
+#label-email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37{
+  display:none;
+}
+#email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37{
+  border-radius: 8px;
+  height: 40px;
+  color: black;
+  width: 400px;
+}
+.hs-button{
+  margin-top:15px;
+  background: transparent;
+  color: white;
+  border: solid #a24a26 2px;
+  border-radius: 50px;
+  padding: 1px 15px;
+}
+.hs-button:active{
+  border-color:#FF4741;
+}
+.hs-button:hover{
+  border-color:#FF4741;
+}

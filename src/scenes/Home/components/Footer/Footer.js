@@ -13,7 +13,7 @@ import './footer.css';
 export default class Footer extends Component {
   render() {
     return (
-      <div className="footer">
+      <div className="footer-section pt-5">
         <div className="container text-center">
           <div className="title text-white">FOLLOW US</div>
           <div className="row">
