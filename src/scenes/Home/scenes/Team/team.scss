@@ -1,74 +1,5 @@
 .team-section{
   background-color:#01013c;
-  .teamTopImage{
-    position:absolute;
-    bottom:35px;
-  }
-  @media only screen and (max-width: 1700px) {
-    .teamTopImage{
-      bottom:35px;
-    }
-  }
-  @media only screen and (max-width: 1550px) {
-    .teamTopImage{
-      bottom:45px;
-    }
-  }
-  @media only screen and (max-width: 1300px) {
-    .teamTopImage{
-      bottom:55px;
-    }
-  }
-  @media only screen and (max-width: 1200px) {
-    .teamTopImage{
-      bottom:5px;
-    }
-  }
-  @media only screen and (max-width: 1140px) {
-    .teamTopImage{
-      bottom:5px;
-    }
-  }
-  @media only screen and (max-width: 992px) {
-    .teamTopImage{
-      bottom:100px;
-    }
-  }
-  @media only screen and (max-width: 991px) {
-    .teamTopImage{
-      bottom:45px;
-    }
-  }
-  @media only screen and (max-width: 859px) {
-    .teamTopImage{
-      bottom:45px;
-    }
-  }
-  @media only screen and (max-width: 700px) {
-    .teamTopImage{
-      bottom:45px;
-    }
-  }
-  @media only screen and (max-width: 600px) {
-    .teamTopImage{
-      bottom:45px;
-    }
-  }
-  @media only screen and (max-width: 510px) {
-    .teamTopImage{
-      bottom:45px;
-    }
-  }
-  @media only screen and (max-width: 440px) {
-    .teamTopImage{
-      bottom:45px;
-    }
-  }
-  @media only screen and (max-width: 335px) {
-    .teamTopImage{
-      bottom:45px;
-    }
-  }
   .container{
     .title{
       font-size:50px;
@@ -176,6 +107,7 @@
           padding-left: 14px;
           position: absolute;
           left: -5px;
+          z-index:100;
         }
       }
       .carousel-control-next{
@@ -188,6 +120,7 @@
           padding-right: 14px;
           position: absolute;
           right: -5px;
+          z-index:100;
         }
       }
     }

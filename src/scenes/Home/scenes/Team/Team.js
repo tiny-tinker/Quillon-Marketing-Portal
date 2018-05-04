@@ -5,7 +5,6 @@ import FaArrowLeft from 'react-icons/lib/fa/arrow-left';
 import FaLinkedin from 'react-icons/lib/fa/linkedin';
 import FaInstagram from 'react-icons/lib/fa/instagram';
 
-import teamTop from './images/teamTop.png';
 import avatar1 from './images/team1_Henning_Lubberding.png';
 import avatar2 from './images/team2_Mark_Reynolds.jpg';
 import avatar3 from './images/team3_Zachary_Elfman.png';
@@ -91,7 +90,6 @@ export default class Team extends Component {
     ];
     return (
       <div className="team-section pt-3 pb-5">
-        <img className="teamTopImage" src={teamTop} width="100%" />
         <div className="container text-center text-white">
           <div className="title"> TEAM </div>
           <div className="teamDescription">
@@ -116,7 +114,7 @@ export default class Team extends Component {
                   roleOfTeam={teamRole[0]}
                   description={teamDescription[0]}
                   linkedin={urlLinkedin[0]}
-                />
+                />-
               </div>
               <div className="carousel-item col-md-4">
                 <Profile
@@ -139,7 +137,7 @@ export default class Team extends Component {
               <div className="carousel-item col-md-4">
                 <Profile
                   photo={teamPhoto[3]}
-                  name={teamName[4]}
+                  name={teamName[3]}
                   roleOfTeam={teamRole[3]}
                   description={teamDescription[3]}
                   linkedin={urlLinkedin[3]}

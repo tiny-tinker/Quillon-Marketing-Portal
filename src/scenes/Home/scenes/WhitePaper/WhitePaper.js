@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 
+import rightCircle from './images/whitepaperRightCircle.png';
+import leftCircle from './images/whitepaperLeftCircle.png';
+
 import './whitepaper.css';
 
 export default class WhitePaper extends Component {
   render() {
     return (
-      <div className="whitepaper-section bg-white mt-5">
+      <div className="whitepaper-section mt-5">
         <div className="container text-center">
           <div className="title mt-5 mb-5"> WHITEPAPER </div>
           <div className="description mt-5 mb-5">
@@ -25,6 +28,8 @@ export default class WhitePaper extends Component {
             DOWNLOAD WHITEPAPER{' '}
           </button>
         </div>
+        <img src={rightCircle} className="rightCircle" />
+        <img src={leftCircle} className="leftCircle" />
       </div>
     );
   }

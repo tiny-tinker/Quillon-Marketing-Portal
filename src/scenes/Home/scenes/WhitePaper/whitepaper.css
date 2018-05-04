@@ -1,5 +1,8 @@
 .whitepaper-section {
-  padding-bottom: 300px;
+  background: url('./images/whitepaper_bg.png') no-repeat;
+  background-size: cover;
+  padding-bottom: 500px;
+  padding-top: 300px;
 }
 @media only screen and (max-width: 767px) {
   .whitepaper-section {
@@ -30,4 +33,16 @@
   .whitepaper-section .container .downloadButton {
     font-size: 20px;
   }
+}
+.whitepaper-section .rightCircle {
+  position: absolute;
+  right: 0px;
+  height: 85%;
+  top: 250px;
+}
+.whitepaper-section .leftCircle {
+  position: absolute;
+  left: 0px;
+  height: 85%;
+  top: 250px;
 }
