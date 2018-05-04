@@ -1,5 +1,74 @@
 .team-section{
   background-color:#01013c;
+  .teamTopImage{
+    position:absolute;
+    bottom:35px;
+  }
+  @media only screen and (max-width: 1700px) {
+    .teamTopImage{
+      bottom:35px;
+    }
+  }
+  @media only screen and (max-width: 1550px) {
+    .teamTopImage{
+      bottom:45px;
+    }
+  }
+  @media only screen and (max-width: 1300px) {
+    .teamTopImage{
+      bottom:55px;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .teamTopImage{
+      bottom:5px;
+    }
+  }
+  @media only screen and (max-width: 1140px) {
+    .teamTopImage{
+      bottom:5px;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .teamTopImage{
+      bottom:100px;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .teamTopImage{
+      bottom:45px;
+    }
+  }
+  @media only screen and (max-width: 859px) {
+    .teamTopImage{
+      bottom:45px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .teamTopImage{
+      bottom:45px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .teamTopImage{
+      bottom:45px;
+    }
+  }
+  @media only screen and (max-width: 510px) {
+    .teamTopImage{
+      bottom:45px;
+    }
+  }
+  @media only screen and (max-width: 440px) {
+    .teamTopImage{
+      bottom:45px;
+    }
+  }
+  @media only screen and (max-width: 335px) {
+    .teamTopImage{
+      bottom:45px;
+    }
+  }
   .container{
     .title{
       font-size:50px;
@@ -33,8 +102,92 @@
           .profile{
             background-color:white;
             width:100%;
-            height:500px;
+            .photo{
+              border-radius:50%;
+              z-index:1;
+              -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+              filter: grayscale(100%);
+            }
+            .name{
+              font-size:28px;
+              text-transform: uppercase;
+            }
+            .role{
+              font-size:25px;
+              color:#1ee6cb;
+              text-transform: uppercase;
+              height:60px;
+            }
+            .description{
+              width:80%;
+              height:70px;
+              margin:0 auto;
+            }
+            @media only screen and (max-width: 1400px) {
+              .description{
+                height:80px;
+              }
+            }
+            @media only screen and (max-width: 1234px) {
+              .description{
+                height:105px;
+              }
+            }
+            @media only screen and (max-width: 1115px) {
+              .description{
+                height:130px;
+              }
+            }
+            @media only screen and (max-width: 922px) {
+              .description{
+                height:150px;
+              }
+            }
+            @media only screen and (max-width: 865px) {
+              .description{
+                height:180px;
+              }
+            }
+            @media only screen and (max-width: 835px) {
+              .description{
+                height:210px;
+              }
+            }
+            @media only screen and (max-width: 835px) {
+              .description{
+                height:220px;
+              }
+            }
+            @media only screen and (max-width: 767px) {
+              .description{
+                height:130px;
+              }
+            }
           }
+        }
+      }
+      .carousel-control-prev{
+        .arrowLeft{
+          width: 80px;
+          height: 80px;
+          background: linear-gradient(to left, #243eff, #196cff, #00d2ff);
+          border-radius: 40px;
+          padding-top: 22px;
+          padding-left: 14px;
+          position: absolute;
+          left: -5px;
+        }
+      }
+      .carousel-control-next{
+        .arrowRight{
+          width: 80px;
+          height: 80px;
+          background: linear-gradient(to right, #243eff, #196cff, #00d2ff);
+          border-radius: 40px;
+          padding-top: 22px;
+          padding-right: 14px;
+          position: absolute;
+          right: -5px;
         }
       }
     }

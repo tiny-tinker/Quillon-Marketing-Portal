@@ -1,6 +1,75 @@
 .team-section {
   background-color: #01013c;
 }
+.team-section .teamTopImage {
+  position: absolute;
+  bottom: 35px;
+}
+@media only screen and (max-width: 1700px) {
+  .team-section .teamTopImage {
+    bottom: 35px;
+  }
+}
+@media only screen and (max-width: 1550px) {
+  .team-section .teamTopImage {
+    bottom: 45px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .team-section .teamTopImage {
+    bottom: 55px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .team-section .teamTopImage {
+    bottom: 5px;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .team-section .teamTopImage {
+    bottom: 5px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .team-section .teamTopImage {
+    bottom: 100px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .team-section .teamTopImage {
+    bottom: 45px;
+  }
+}
+@media only screen and (max-width: 859px) {
+  .team-section .teamTopImage {
+    bottom: 45px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .team-section .teamTopImage {
+    bottom: 45px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .team-section .teamTopImage {
+    bottom: 45px;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .team-section .teamTopImage {
+    bottom: 45px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .team-section .teamTopImage {
+    bottom: 45px;
+  }
+}
+@media only screen and (max-width: 335px) {
+  .team-section .teamTopImage {
+    bottom: 45px;
+  }
+}
 .team-section .container .title {
   font-size: 50px;
 }
@@ -28,5 +97,146 @@
 .team-section .members .carousel .carousel-inner .carousel-item .profile {
   background-color: white;
   width: 100%;
-  height: 500px;
+}
+.team-section
+  .members
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .profile
+  .photo {
+  border-radius: 50%;
+  z-index: 1;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.team-section .members .carousel .carousel-inner .carousel-item .profile .name {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.team-section .members .carousel .carousel-inner .carousel-item .profile .role {
+  font-size: 25px;
+  color: #1ee6cb;
+  text-transform: uppercase;
+  height: 60px;
+}
+.team-section
+  .members
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .profile
+  .description {
+  width: 80%;
+  height: 70px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1400px) {
+  .team-section
+    .members
+    .carousel
+    .carousel-inner
+    .carousel-item
+    .profile
+    .description {
+    height: 80px;
+  }
+}
+@media only screen and (max-width: 1234px) {
+  .team-section
+    .members
+    .carousel
+    .carousel-inner
+    .carousel-item
+    .profile
+    .description {
+    height: 105px;
+  }
+}
+@media only screen and (max-width: 1115px) {
+  .team-section
+    .members
+    .carousel
+    .carousel-inner
+    .carousel-item
+    .profile
+    .description {
+    height: 130px;
+  }
+}
+@media only screen and (max-width: 922px) {
+  .team-section
+    .members
+    .carousel
+    .carousel-inner
+    .carousel-item
+    .profile
+    .description {
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 865px) {
+  .team-section
+    .members
+    .carousel
+    .carousel-inner
+    .carousel-item
+    .profile
+    .description {
+    height: 180px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .team-section
+    .members
+    .carousel
+    .carousel-inner
+    .carousel-item
+    .profile
+    .description {
+    height: 210px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .team-section
+    .members
+    .carousel
+    .carousel-inner
+    .carousel-item
+    .profile
+    .description {
+    height: 220px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .team-section
+    .members
+    .carousel
+    .carousel-inner
+    .carousel-item
+    .profile
+    .description {
+    height: 130px;
+  }
+}
+.team-section .members .carousel .carousel-control-prev .arrowLeft {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(to left, #243eff, #196cff, #00d2ff);
+  border-radius: 40px;
+  padding-top: 22px;
+  padding-left: 14px;
+  position: absolute;
+  left: -5px;
+}
+.team-section .members .carousel .carousel-control-next .arrowRight {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(to right, #243eff, #196cff, #00d2ff);
+  border-radius: 40px;
+  padding-top: 22px;
+  padding-right: 14px;
+  position: absolute;
+  right: -5px;
 }

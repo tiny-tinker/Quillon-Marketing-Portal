@@ -1,0 +1,33 @@
+.whitepaper-section {
+  padding-bottom: 300px;
+}
+@media only screen and (max-width: 767px) {
+  .whitepaper-section {
+    padding-bottom: 250px;
+  }
+}
+.whitepaper-section .container .title {
+  font-size: 50px;
+  color: #01013c;
+}
+.whitepaper-section .container .description {
+  width: 55%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 992px) {
+  .whitepaper-section .container .description {
+    width: 95%;
+  }
+}
+.whitepaper-section .container .downloadButton {
+  border-style: none;
+  background: linear-gradient(to right, #243eff, #196cff, #00d2ff);
+  color: white;
+  font-size: 23px;
+  padding: 10px 20px;
+}
+@media only screen and (max-width: 360px) {
+  .whitepaper-section .container .downloadButton {
+    font-size: 20px;
+  }
+}
