@@ -1,0 +1,24 @@
+.roadmap-section {
+  background-color: #01013c;
+}
+.roadmap-section .container .title {
+  font-size: 50px;
+}
+.roadmap-section .container .description {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 23px;
+}
+.roadmap-section .container .roadmapDetail {
+  padding-top: 100px;
+}
+.roadmap-section .container .roadmapDetail .tabContent {
+  width: 60%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 767px) {
+  .roadmap-section .container .roadmapDetail .tabContent {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

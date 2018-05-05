@@ -8,7 +8,7 @@ import './whitepaper.css';
 export default class WhitePaper extends Component {
   render() {
     return (
-      <div className="whitepaper-section mt-5">
+      <div className="whitepaper-section">
         <div className="container text-center">
           <div className="title mt-5 mb-5"> WHITEPAPER </div>
           <div className="description mt-5 mb-5">

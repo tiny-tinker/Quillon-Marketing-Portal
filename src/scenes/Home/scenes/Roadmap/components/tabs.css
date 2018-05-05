@@ -1,0 +1,32 @@
+.Tabs {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.Tabs .Tabs_Tab {
+  display: inline-block;
+  padding: 1em;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+.Tabs .Tabs_Tab .TabLine {
+  height: 3px;
+  background: transparent;
+}
+.Tabs .Tabs_Tab:hover,
+.Tabs .Tabs_Tab-active {
+  background: transparent;
+  color: #01bdfd;
+}
+.Tabs .Tabs_Tab:hover .TabLine,
+.Tabs .Tabs_Tab-active .TabLine {
+  background: #01bdfd;
+}
+.Tabs .Tabs_Underline {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  border-bottom: 3px solid orange;
+}

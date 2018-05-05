@@ -38,11 +38,19 @@
   position: absolute;
   right: 0px;
   height: 85%;
-  top: 250px;
+  bottom: -1000px;
 }
 .whitepaper-section .leftCircle {
   position: absolute;
   left: 0px;
   height: 85%;
-  top: 250px;
+  bottom: -1000px;
+}
+@media only screen and (max-width: 400px) {
+  .whitepaper-section .rightCircle {
+    bottom: -1400px;
+  }
+  .whitepaper-section .leftCircle {
+    bottom: -1400px;
+  }
 }

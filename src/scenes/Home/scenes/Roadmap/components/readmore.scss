@@ -1,0 +1,26 @@
+.collapseDiv{
+  .readMoreButton{
+    background:transparent;
+    border-style:none;
+    color:#7d7e9c;
+    font-size:14px;
+    margin-bottom:0px !important;
+  }
+  .readMoreButton:hover{
+    background:transparent;
+    border-style:none;
+    color:white;
+  }
+  .readMoreButton:active{
+    background-color:transparent;
+    border-style:none;
+    border-color:transparent;
+    color:white;
+  }
+  .contentDiv{
+    .readMoreDetail{
+      background:transparent;
+    }
+  }
+
+}

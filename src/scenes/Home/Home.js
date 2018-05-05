@@ -3,6 +3,7 @@ import { push } from 'react-router-redux';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
+import Roadmap from './scenes/Roadmap/Roadmap';
 import WhitePaper from './scenes/WhitePaper/WhitePaper';
 import Team from './scenes/Team/Team';
 import Connect from './scenes/Connect/Connect';
@@ -12,6 +13,7 @@ const Home = props => (
   <div>
     <h1>Home</h1>
     <p>Welcome home!</p>
+    <Roadmap />
     <WhitePaper />
     <Team />
     <Connect />

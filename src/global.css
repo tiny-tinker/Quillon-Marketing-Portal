@@ -114,3 +114,8 @@ Attribution required
     display: block;
   }
 }
+
+.btn-secondary:not(:disabled):not(.disabled):active {
+  background: transparent;
+  outline: none;
+}
