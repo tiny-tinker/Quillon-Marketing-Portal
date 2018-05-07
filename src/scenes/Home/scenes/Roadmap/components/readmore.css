@@ -12,11 +12,8 @@
   color: white;
 }
 
-.collapseDiv .readMoreButton:active {
-  background-color: transparent;
-  border-style: none;
-  border-color: transparent;
-  color: white;
+.collapseDiv .readMoreButton:focus {
+  box-shadow: none;
 }
 
 .collapseDiv .contentDiv .readMoreDetail {

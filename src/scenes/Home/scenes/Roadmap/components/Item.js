@@ -10,7 +10,7 @@ export default class Item extends Component {
         <div className="itemTitle pt-1 pb-2">{this.props.title}</div>
         <div className="line" />
         <div>
-          <ReadMore />
+          <ReadMore content={this.props.content} />
         </div>
       </div>
     );

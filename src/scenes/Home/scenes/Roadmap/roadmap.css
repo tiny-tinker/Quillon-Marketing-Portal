@@ -9,12 +9,27 @@
   margin: 0 auto;
   font-size: 23px;
 }
+.roadmap-section .container .rightEllipse {
+  position: absolute;
+  right: 0px;
+  height: 50%;
+}
 .roadmap-section .container .roadmapDetail {
   padding-top: 100px;
 }
 .roadmap-section .container .roadmapDetail .tabContent {
-  width: 60%;
+  width: 58%;
   margin: 0 auto;
+}
+@media only screen and (max-width: 1200px) {
+  .roadmap-section .container .roadmapDetail .tabContent {
+    width: 68%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .roadmap-section .container .roadmapDetail .tabContent {
+    width: 92%;
+  }
 }
 @media only screen and (max-width: 767px) {
   .roadmap-section .container .roadmapDetail .tabContent {

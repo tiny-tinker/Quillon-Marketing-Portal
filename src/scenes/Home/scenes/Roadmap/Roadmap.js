@@ -4,6 +4,8 @@ import Tabs from './components/Tabs';
 import Item from './components/Item';
 import './roadmap.css';
 
+import rightEllipse from './images/roadmapRightEllipse.png';
+
 export default class Roadmap extends Component {
   constructor(props) {
     super(props);
@@ -54,6 +56,7 @@ export default class Roadmap extends Component {
             Over the coming weeks and months we have a lot in store to bring you
             the most successful currency possible
           </div>
+          <img src={rightEllipse} className="rightEllipse" />
           <div className="roadmapDetail">
             <Tabs
               active={this.state.active}
@@ -65,12 +68,27 @@ export default class Roadmap extends Component {
               <div key="Tab4"> FINANCIAL SERVICES </div>
             </Tabs>
             <div className="tabContent mt-5 pb-5">
-              <Item title={content[this.state.active][0]} />
-              <Item title={content[this.state.active][1]} />
-              <Item title={content[this.state.active][2]} />
-              <Item title={content[this.state.active][3]} />
+              <Item
+                title={content[this.state.active][0]}
+                content="description"
+              />
+              <Item
+                title={content[this.state.active][1]}
+                content="description"
+              />
+              <Item
+                title={content[this.state.active][2]}
+                content="description"
+              />
+              <Item
+                title={content[this.state.active][3]}
+                content="description"
+              />
               {content[this.state.active].length > 4 ? (
-                <Item title={content[this.state.active][4]} />
+                <Item
+                  title={content[this.state.active][4]}
+                  content="description"
+                />
               ) : (
                 <div> </div>
               )}

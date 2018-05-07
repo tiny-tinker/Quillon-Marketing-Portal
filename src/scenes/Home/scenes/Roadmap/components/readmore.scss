@@ -11,11 +11,8 @@
     border-style:none;
     color:white;
   }
-  .readMoreButton:active{
-    background-color:transparent;
-    border-style:none;
-    border-color:transparent;
-    color:white;
+  .readMoreButton:focus{
+    box-shadow:none;
   }
   .contentDiv{
     .readMoreDetail{

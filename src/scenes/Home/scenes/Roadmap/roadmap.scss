@@ -9,11 +9,26 @@
       margin:0 auto;
       font-size:23px;
     }
+    .rightEllipse{
+      position:absolute;
+      right:0px;
+      height:50%;
+    }
     .roadmapDetail{
       padding-top:100px;
       .tabContent{
-        width:60%;
+        width:58%;
         margin:0 auto;
+      }
+      @media only screen and (max-width: 1200px) {
+        .tabContent{
+          width:68%;
+        }
+      }
+      @media only screen and (max-width: 991px) {
+        .tabContent{
+          width:92%;
+        }
       }
       @media only screen and (max-width: 767px) {
         .tabContent{
