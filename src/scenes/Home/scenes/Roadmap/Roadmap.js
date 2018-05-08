@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Parallax, Background } from 'react-parallax';
 
 import Tabs from './components/Tabs/Tabs';
 import Item from './components/Item/Item';
@@ -59,12 +58,6 @@ export default class Roadmap extends Component {
           </div>
           <div className="rightEllipse">
             <img src={rightEllipse} style={{ height: '50%' }} />
-            {/*<Parallax*/}
-            {/*strenth={300}*/}
-            {/*bgImage={rightEllipse}*/}
-            {/*bgClassName="cloud-parallax-img"*/}
-            {/*className="cloud-parallax">*/}
-            {/*</Parallax>*/}
           </div>
           <div className="roadmapDetail">
             <Tabs
