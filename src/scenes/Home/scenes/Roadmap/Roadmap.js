@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import { Parallax, Background } from 'react-parallax';
 
-import Tabs from './components/Tabs';
-import Item from './components/Item';
+import Tabs from './components/Tabs/Tabs';
+import Item from './components/Item/Item';
 import './roadmap.css';
 
 import rightEllipse from './images/roadmapRightEllipse.png';
@@ -46,7 +47,7 @@ export default class Roadmap extends Component {
       Tab4: TabContent4
     };
     return (
-      <div className="roadmap-section">
+      <div className="roadmap-section pt-5">
         <div className="container text-center">
           <div className="title text-white">ROADMAP</div>
           <div className="description text-white">
@@ -56,7 +57,15 @@ export default class Roadmap extends Component {
             Over the coming weeks and months we have a lot in store to bring you
             the most successful currency possible
           </div>
-          <img src={rightEllipse} className="rightEllipse" />
+          <div className="rightEllipse">
+            <img src={rightEllipse} style={{ height: '50%' }} />
+            {/*<Parallax*/}
+            {/*strenth={300}*/}
+            {/*bgImage={rightEllipse}*/}
+            {/*bgClassName="cloud-parallax-img"*/}
+            {/*className="cloud-parallax">*/}
+            {/*</Parallax>*/}
+          </div>
           <div className="roadmapDetail">
             <Tabs
               active={this.state.active}

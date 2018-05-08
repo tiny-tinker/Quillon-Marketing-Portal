@@ -2,17 +2,20 @@
   background-color: #01013c;
 }
 .roadmap-section .container .title {
-  font-size: 50px;
+  font-size: 70px;
+  font-family: Montserrat ExtraBold, serif;
 }
 .roadmap-section .container .description {
   width: 80%;
   margin: 0 auto;
-  font-size: 23px;
+  font-size: 17px;
+  font-family: Roboto Regular, sans-serif;
+  text-transform: uppercase;
 }
 .roadmap-section .container .rightEllipse {
   position: absolute;
-  right: 0px;
-  height: 50%;
+  right: 0;
+  height: 100%;
 }
 .roadmap-section .container .roadmapDetail {
   padding-top: 100px;

@@ -9,7 +9,7 @@ export default class Connect extends Component {
         <div className="container text-center">
           <div className="title text-white mb-3"> CONNECT </div>
           <div className="signUpTitle text-white"> JOIN OUR NEWSLETTER </div>
-          <div className="signUpDescription text-white">
+          <div className="signUpDescription text-white mt-2">
             {' '}
             Get Exclusive Content, offers and more by joining our newsletter
             mailing list{' '}

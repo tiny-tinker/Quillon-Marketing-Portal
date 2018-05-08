@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import ReadMore from './ReadMore';
+import ReadMore from '../ReadMore/ReadMore';
 import './item.css';
 
 export default class Item extends Component {

@@ -10,12 +10,14 @@
   }
 }
 .whitepaper-section .container .title {
-  font-size: 50px;
+  font-size: 70px;
   color: #01013c;
+  font-family: Montserrat ExtraBold, sans-serif;
 }
 .whitepaper-section .container .description {
   width: 55%;
   margin: 0 auto;
+  font-family: Roboto Regular, sans-serif;
 }
 @media only screen and (max-width: 992px) {
   .whitepaper-section .container .description {
@@ -27,6 +29,7 @@
   background: linear-gradient(to right, #243eff, #196cff, #00d2ff);
   color: white;
   font-size: 23px;
+  font-family: Myriad Pro Regular, sans-serif;
   padding: 10px 20px;
 }
 @media only screen and (max-width: 360px) {

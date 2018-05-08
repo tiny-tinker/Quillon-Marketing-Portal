@@ -2,12 +2,15 @@
   background-color: #01013c;
 }
 .connect-section .container .title {
-  font-size: 50px;
+  font-size: 70px;
+  font-family: Montserrat ExtraBold, sans-serif;
 }
 .connect-section .container .signUpTitle {
   font-size: 23px;
+  font-family: Myriad Pro Regular, sans-serif;
 }
 .connect-section .container .signUpDescription {
   width: 290px;
   margin: 0 auto;
+  font-family: Myriad Pro Regular, sans-serif;
 }
