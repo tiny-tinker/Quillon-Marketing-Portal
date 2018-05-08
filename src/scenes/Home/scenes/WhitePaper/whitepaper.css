@@ -14,6 +14,36 @@
   color: #01013c;
   font-family: Montserrat ExtraBold, sans-serif;
 }
+@media only screen and (min-width: 600px) {
+  .whitepaper-section .container .title {
+    font-size: 70px;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .whitepaper-section .container .title {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .whitepaper-section .container .title {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .whitepaper-section .container .title {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .whitepaper-section .container .title {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .whitepaper-section .container .title {
+    font-size: 35px;
+  }
+}
 .whitepaper-section .container .description {
   width: 55%;
   margin: 0 auto;
@@ -55,5 +85,13 @@
   }
   .whitepaper-section .leftCircle {
     bottom: -1400px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .whitepaper-section .rightCircle {
+    bottom: -1700px;
+  }
+  .whitepaper-section .leftCircle {
+    bottom: -1700px;
   }
 }
