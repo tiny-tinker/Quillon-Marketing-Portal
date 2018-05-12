@@ -62,7 +62,6 @@
     }
     .downloadButton:hover{
       background: linear-gradient(to right, #00d2ff, #196cff, #243eff);
-      border-style: solid;
     }
     @media only screen and (max-width: 360px) {
       .downloadButton{
@@ -74,13 +73,13 @@
     position:absolute;
     right:0px;
     height:85%;
-    bottom:-1000px;
+    bottom:-2600px;
   }
   .leftCircle{
     position:absolute;
     left:0px;
     height:85%;
-    bottom:-1000px;
+    bottom:-2600px;
   }
   @media only screen and (max-width: 400px) {
     .rightCircle{

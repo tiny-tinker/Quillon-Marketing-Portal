@@ -1,0 +1,33 @@
+.stay-section{
+  background-color:#01013c;
+  .container{
+    .title{
+      font-size:40px;
+      font-family:Montserrat ExtraBold, sans-serif;
+      text-transform: uppercase;
+    }
+    .description{
+      width:40%;
+      margin:0 auto;
+    }
+    @media only screen and (max-width: 767px) {
+      .description{
+        width:90%;
+        margin:0 auto;
+      }
+    }
+    .stayCenter{
+      width:70%;
+    }
+    .rightEllipse{
+      position:absolute;
+      right:0;
+      height:80%;
+    }
+    .leftEllipse{
+      position:absolute;
+      left:0;
+      height:80%;
+    }
+  }
+}
