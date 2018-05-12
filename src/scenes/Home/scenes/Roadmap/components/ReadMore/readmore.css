@@ -19,3 +19,6 @@
 .collapseDiv .contentDiv .readMoreDetail {
   background: transparent;
 }
+.collapseDiv .contentDiv .readMoreDetail .cardBody {
+  color: #bdbdce;
+}

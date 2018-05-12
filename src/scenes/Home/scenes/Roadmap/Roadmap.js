@@ -45,6 +45,40 @@ export default class Roadmap extends Component {
       Tab3: TabContent3,
       Tab4: TabContent4
     };
+
+    const description1 = [
+      'description for Quillon Foundation Incorporation',
+      'description for Quillon Team Expansion',
+      'description for Self-Governance Budget Voting',
+      'description for Transparency Reporting'
+    ];
+    const description2 = [
+      'description for Web Platform Launch',
+      'description for Hosting as a Service',
+      'description for Multi-currency Support',
+      'description for Currency Exchange Facilities'
+    ];
+    const description3 = [
+      'description for LibZerocoin 2.0',
+      'description for Double Anonymous Send and Receive',
+      'description for TOR Network Integration',
+      'description for Smart Contract Engine',
+      'description for Atomic Swap Implementation'
+    ];
+    const description4 = [
+      'description for Decentralized Financial Reserve Bank',
+      'description for Peer to Peer Lending',
+      'description for Reputation Token Integration',
+      'description for Additional Automatic Stabilizers',
+      'description for Micro Finance Integrations'
+    ];
+
+    const description = {
+      Tab1: description1,
+      Tab2: description2,
+      Tab3: description3,
+      Tab4: description4
+    };
     return (
       <div className="roadmap-section pt-5">
         <div className="container text-center">
@@ -72,24 +106,24 @@ export default class Roadmap extends Component {
             <div className="tabContent mt-5 pb-5">
               <Item
                 title={content[this.state.active][0]}
-                content="description"
+                content={description[this.state.active][0]}
               />
               <Item
                 title={content[this.state.active][1]}
-                content="description"
+                content={description[this.state.active][1]}
               />
               <Item
                 title={content[this.state.active][2]}
-                content="description"
+                content={description[this.state.active][2]}
               />
               <Item
                 title={content[this.state.active][3]}
-                content="description"
+                content={description[this.state.active][3]}
               />
               {content[this.state.active].length > 4 ? (
                 <Item
                   title={content[this.state.active][4]}
-                  content="description"
+                  content={description[this.state.active][4]}
                 />
               ) : (
                 <div> </div>

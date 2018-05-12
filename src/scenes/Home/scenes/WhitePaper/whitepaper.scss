@@ -60,6 +60,10 @@
       font-family:Myriad Pro Regular,sans-serif;
       padding: 10px 20px;
     }
+    .downloadButton:hover{
+      background: linear-gradient(to right, #00d2ff, #196cff, #243eff);
+      border-style: solid;
+    }
     @media only screen and (max-width: 360px) {
       .downloadButton{
         font-size: 20px;
