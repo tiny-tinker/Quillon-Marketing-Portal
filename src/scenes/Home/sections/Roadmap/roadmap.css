@@ -58,12 +58,12 @@
   font-family: Myriad Pro Regular, sans serif;
 }
 .roadmap-section .container .roadmapDetail .tabContent {
-  width: 58%;
+  width: 62%;
   margin: 0 auto;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
   .roadmap-section .container .roadmapDetail .tabContent {
-    width: 68%;
+    width: 74%;
   }
 }
 @media only screen and (max-width: 991px) {
