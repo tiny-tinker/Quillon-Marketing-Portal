@@ -1,7 +1,6 @@
 .exploreStatus {
   .exploreStatus-image {
     margin-bottom: 30px;
-    float: left;
     width: 70px;
     height: 70px;
     @media only screen and (max-width: 1200px) {
@@ -20,9 +19,9 @@
   }
 
   .exploreStatus-label {
+    font-family: Montserrat,sans-serif;
     font-size: 1.7rem;
     color: #fff;
-    text-align: left;
     line-height: 1;
     font-weight: bold;
     @media only screen and (max-width: 1200px) {
@@ -40,7 +39,6 @@
 
   .exploreStatus-value {
     font-size: 3.2rem;
-    text-align: left;
     background: -webkit-linear-gradient(#f94d1f, #fd6d07);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

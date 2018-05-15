@@ -15,8 +15,9 @@
     color: #fff;
     text-align: center;
     margin-bottom: 100px;
+    font-family: "Roboto Regular",sans-serif;
 
-    @media only screen and (min-width: 767px) {
+    @media only screen and (min-width: 991px) {
       padding-left: 200px;
       padding-right: 200px;
     }
@@ -42,13 +43,27 @@
 
   .hold-subImage {
     margin: 0 auto;
-    margin-top: 64px;
+    margin-top: 72px;
     margin-bottom: 15px;
   }
   .chooseWallet-image {
-    margin-top: 44px;
+    margin-top: 69px;
   }
-
+  .earn-block figure{
+    margin-top: 5px;
+  }
+  .hold-block .hover12 figure {
+    width: 30px;
+    @media only screen and (max-width: 1200px) {
+      width: 40px;
+    }
+    @media only screen and (max-width: 992px) {
+      width: 30px;
+    }
+    @media only screen and (max-width: 767px) {
+      width: 60px;
+    }
+  }
   .rgbDecorate {
     width: 100%;
     overflow: hidden;

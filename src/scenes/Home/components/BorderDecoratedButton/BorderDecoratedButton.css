@@ -14,66 +14,78 @@
   zoom: 1;
   padding: 0;
   text-align: center;
-  width: 120px; }
-  .borderDecoratedButton:before {
-    content: "";
-    display: block;
-    clear: both;
-    position: absolute;
-    right: 20px;
-    left: 0;
-    top: 0;
-    height: 100%;
-    background: url(./images/orange-btn-l.png) no-repeat; }
-  .borderDecoratedButton:after {
-    content: "";
-    display: block;
-    clear: both;
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 38px;
-    background: url(./images/orange-btn-r.png) no-repeat;
-    width: 20px; }
-  .borderDecoratedButton span {
-    display: block;
-    height: 38px;
-    line-height: 38px;
-    position: relative; }
-    .borderDecoratedButton span:before {
-      content: "";
-      display: block;
-      clear: both;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      border-radius: 20px;
-      border: 3px solid transparent;
-      z-index: 2;
-      box-shadow: 0 0 50px rgba(248, 114, 38, 0.5);
-      transition: all 0.3s ease;
-      opacity: 0; }
-    .borderDecoratedButton span:after {
-      content: "";
-      display: block;
-      clear: both;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      border-radius: 20px;
-      border: 3px solid transparent;
-      z-index: 2;
-      box-shadow: inset 0 0 40px rgba(248, 114, 38, 0.4);
-      transition: all 0.3s ease;
-      opacity: 0; }
-  .borderDecoratedButton:hover span:before, .borderDecoratedButton:hover span:after {
-    opacity: 1; }
-  .borderDecoratedButton .label {
-    font-family: Roboto,sans-serif;
-    font-size: 1.1em;
-    font-weight: 100;
-    text-align: center; }
+  width: 120px;
+}
+.borderDecoratedButton:before {
+  content: '';
+  display: block;
+  clear: both;
+  position: absolute;
+  right: 20px;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: url(./images/orange-btn-l.png) no-repeat;
+}
+.borderDecoratedButton:after {
+  content: '';
+  display: block;
+  clear: both;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 38px;
+  background: url(./images/orange-btn-r.png) no-repeat;
+  width: 20px;
+}
+.borderDecoratedButton span {
+  display: block;
+  height: 38px;
+  line-height: 38px;
+  position: relative;
+}
+.borderDecoratedButton span:focus {
+  outline: none;
+}
+.borderDecoratedButton span:before {
+  content: '';
+  display: block;
+  clear: both;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 20px;
+  border: 3px solid transparent;
+  z-index: 2;
+  box-shadow: 0 0 50px rgba(248, 114, 38, 0.5);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+.borderDecoratedButton span:after {
+  content: '';
+  display: block;
+  clear: both;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 20px;
+  border: 3px solid transparent;
+  z-index: 2;
+  box-shadow: inset 0 0 40px rgba(248, 114, 38, 0.4);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+.borderDecoratedButton:hover span:before,
+.borderDecoratedButton:hover span:after {
+  opacity: 1;
+}
+.borderDecoratedButton .label {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 1.1em;
+  text-align: center;
+}

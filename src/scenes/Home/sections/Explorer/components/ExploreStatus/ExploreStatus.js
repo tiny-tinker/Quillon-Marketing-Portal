@@ -8,7 +8,7 @@ class ExploreStatus extends React.Component {
   constructor(props) {
     super(props);
     this.handleWaypointEnter = this.handleWaypointEnter.bind(this);
-    this.state = { bAnimationTriggered: false};
+    this.state = { bAnimationTriggered: false };
   }
 
   handleWaypointEnter() {
@@ -19,17 +19,25 @@ class ExploreStatus extends React.Component {
   }
 
   render() {
-    const {imageUrl, label, value} = this.props;
-    const newLabel = label.split('\\n').map((item, i) => <h4 className="exploreStatus-label" key={i}>{item}</h4>);
+    const { imageUrl, label, value } = this.props;
+    const newLabel = label.split('\\n').map((item, i) => (
+      <h4 className="exploreStatus-label" key={i}>
+        {item}
+      </h4>
+    ));
     return (
       <div className="exploreStatus">
-        <img className="exploreStatus-image" src={imageUrl} role="presentation"/>
+        <a>
+          <img
+            className="exploreStatus-image"
+            src={imageUrl}
+            role="presentation"
+          />
+        </a>
         <div className="clearfix" />
         {newLabel}
         <h4 className="exploreStatus-value">
-          <Waypoint
-            onEnter={this.handleWaypointEnter}
-          />
+          <Waypoint onEnter={this.handleWaypointEnter} />
           <CountUp
             start={0}
             end={value}
@@ -37,7 +45,7 @@ class ExploreStatus extends React.Component {
             useGrouping={true}
             useEasing={true}
             separator="."
-            ref={(countUp) => {
+            ref={countUp => {
               this.myCountUp = countUp;
             }}
           />

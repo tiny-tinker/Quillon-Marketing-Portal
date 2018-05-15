@@ -2,33 +2,49 @@
   position: relative;
   height: 100%;
   width: 100%;
-  background: url("./images/intro_bkg.png") no-repeat bottom;
+  background: url('./images/intro_bkg.png') no-repeat bottom;
   background-size: cover;
   text-align: center;
   position: relative;
-  padding-top: 146px;
-  padding-bottom: 146px; }
-  .intro-section .logo-container {
-    text-align: center;
-    width: 100%; }
-    .intro-section .logo-container .logo {
-      width: 90px; }
-  .intro-section .title {
-    margin: 90px 0 50px 0;
-    font-size: 3.3em;
-    color: #fff;
-    font-weight: bold; }
+  padding-top: 200px;
+  padding-bottom: 210px;
+}
+@media only screen and (max-width: 991px) {
+  .intro-section {
+    padding-top: 120px;
+  }
+}
+.intro-section .logo-container {
+  text-align: center;
+  width: 100%;
+}
+.intro-section .logo-container .logo {
+  width: 90px;
+}
+.intro-section .title {
+  margin: 100px 0 90px 0;
+  font-family: Montserrat-ExtraBold, sans-serif;
+  font-weight: bold;
+  font-size: 3.3em;
+  color: #fff;
+}
+.intro-section .subtitle {
+  font-family: Roboto, sans-serif;
+  font-weight: lighter;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 100px;
+}
+@media only screen and (min-width: 991px) {
   .intro-section .subtitle {
-    color: #fff;
-    text-align: center;
-    margin-bottom: 50px; }
-    @media only screen and (min-width: 767px) {
-      .intro-section .subtitle {
-        padding-left: 150px;
-        padding-right: 150px; } }
-  .intro-section .scrollIndicatorContainer {
-    position: absolute;
-    bottom: 50px;
-    left: 0;
-    width: 100%;
-    text-align: center; }
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+.intro-section .scrollIndicatorContainer {
+  position: absolute;
+  bottom: 88px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}

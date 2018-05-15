@@ -46,6 +46,9 @@
     line-height: 38px;
     position: relative;
 
+    &:focus {
+      outline: none;
+    }
     &:before {
       content: "";
       display: block;
@@ -89,8 +92,8 @@
 
   .label {
     font-family: Roboto,sans-serif;
+    font-weight: normal;
     font-size: 1.1em;
-    font-weight: 100;
     text-align: center;
   }
 }

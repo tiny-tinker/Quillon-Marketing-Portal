@@ -2,59 +2,103 @@
   position: relative;
   text-align: center;
   padding-top: 100px;
-  padding-bottom: 146px; }
-  .network-section .title {
-    margin: 0 0 50px 0;
-    font-size: 3.3em;
-    color: #fff;
-    font-weight: bold; }
+  padding-bottom: 146px;
+}
+.network-section .title {
+  margin: 0 0 50px 0;
+  font-size: 3.3em;
+  color: #fff;
+  font-weight: bold;
+}
+.network-section .section-description {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 100px;
+  font-family: 'Roboto Regular', sans-serif;
+}
+@media only screen and (min-width: 991px) {
   .network-section .section-description {
-    color: #fff;
-    text-align: center;
-    margin-bottom: 100px; }
-    @media only screen and (min-width: 767px) {
-      .network-section .section-description {
-        padding-left: 200px;
-        padding-right: 200px; } }
-  .network-section .trade-image, .network-section .earn-image, .network-section .hold-image {
-    height: 112px;
-    width: 112px;
-    margin-bottom: 25px; }
-  .network-section .trade-title, .network-section .earn-title, .network-section .hold-title {
-    font-family: Montserrat-ExtraBold, sans-serif;
-    font-size: 2.3em;
-    margin-bottom: 25px;
-    color: #fff; }
-  .network-section .trade-subImage, .network-section .earn-subImage {
-    margin: 0 auto;
-    margin-top: 47px;
-    margin-bottom: 15px; }
-  .network-section .hold-subImage {
-    margin: 0 auto;
-    margin-top: 64px;
-    margin-bottom: 15px; }
-  .network-section .chooseWallet-image {
-    margin-top: 44px; }
-  .network-section .rgbDecorate {
-    width: 100%;
-    overflow: hidden;
-    opacity: 1;
-    margin-top: -250px; }
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+.network-section .trade-image,
+.network-section .earn-image,
+.network-section .hold-image {
+  height: 112px;
+  width: 112px;
+  margin-bottom: 25px;
+}
+.network-section .trade-title,
+.network-section .earn-title,
+.network-section .hold-title {
+  font-family: Montserrat-ExtraBold, sans-serif;
+  font-size: 2.3em;
+  margin-bottom: 25px;
+  color: #fff;
+}
+.network-section .trade-subImage,
+.network-section .earn-subImage {
+  margin: 0 auto;
+  margin-top: 47px;
+  margin-bottom: 15px;
+}
+.network-section .hold-subImage {
+  margin: 0 auto;
+  margin-top: 72px;
+  margin-bottom: 15px;
+}
+.network-section .chooseWallet-image {
+  margin-top: 69px;
+}
+.network-section .earn-block figure {
+  margin-top: 5px;
+}
+.network-section .hold-block .hover12 figure {
+  width: 30px;
+}
+@media only screen and (max-width: 1200px) {
+  .network-section .hold-block .hover12 figure {
+    width: 40px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .network-section .hold-block .hover12 figure {
+    width: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .network-section .hold-block .hover12 figure {
+    width: 60px;
+  }
+}
+.network-section .rgbDecorate {
+  width: 100%;
+  overflow: hidden;
+  opacity: 1;
+  margin-top: -250px;
+}
+.network-section .ellipseDecorateH {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: -100;
+  opacity: 0.6;
+}
+@media only screen and (max-width: 767px) {
   .network-section .ellipseDecorateH {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    z-index: -100;
-    opacity: 0.6; }
-    @media only screen and (max-width: 767px) {
-      .network-section .ellipseDecorateH {
-        display: none; } }
+    display: none;
+  }
+}
+.network-section .ellipseDecorateV {
+  position: absolute;
+  opacity: 0.6;
+  right: 0;
+  bottom: 50%;
+}
+@media only screen and (max-width: 767px) {
   .network-section .ellipseDecorateV {
-    position: absolute;
-    opacity: 0.6;
-    right: 0;
-    bottom: 50%; }
-    @media only screen and (max-width: 767px) {
-      .network-section .ellipseDecorateV {
-        display: none; } }
+    display: none;
+  }
+}

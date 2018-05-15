@@ -1,7 +1,13 @@
+#st-nav a {
+  font-family: Roboto, sans-serif;
+  font-weight: lighter;
+}
+
 #st-nav ul {
   position: fixed;
   width: 90%;
   max-width: 400px;
+  left: unset;
   right: 5%;
   bottom: 20px;
   border-radius: 0.25em;
@@ -262,13 +268,20 @@
 }
 
 @media only screen and (min-width: 992px) {
+  #st-nav .navUIContainer {
+    position: absolute;
+    width: 100%;
+  }
   #st-nav ul {
     /* the navigation moves to the top */
-    position: absolute;
-    width: auto;
+    position: relative;
+    width: 100%;
+    text-align: center;
     max-width: none;
+    left: 0;
+    right: 0;
     bottom: auto;
-    top: 20px;
+    top: 60px;
     background: transparent;
     visibility: visible;
     box-shadow: none;
@@ -293,6 +306,8 @@
     position: fixed;
     width: 90%;
     max-width: 400px;
+    left: unset;
+    right: 5%;
     bottom: 20px;
     top: auto;
     background: rgba(12, 22, 30, 0.9);
@@ -307,9 +322,10 @@
     display: block;
   }
   #st-nav.is-fixed ul li a {
-    padding: 1.6em;
+    padding: 1em;
     margin-left: 0;
     color: #ffffff;
+    text-align: left;
   }
   #st-nav ul.has-transitions {
     -webkit-transition: -webkit-transform 0.3s, visibility 0s 0.3s;
@@ -351,7 +367,7 @@
     -moz-transition: -moz-transform 0.3s, visibility 0s 0.3s;
     transition: transform 0.3s, visibility 0s 0.3s;
   }
-  #st-nav .is-fixed .st-nav-trigger {
+  #st-nav.is-fixed .st-nav-trigger {
     visibility: visible;
     -webkit-transition: all 0s;
     -moz-transition: all 0s;

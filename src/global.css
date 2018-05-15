@@ -130,6 +130,7 @@ a:active,
 a:visited,
 a:focus {
   text-decoration: none;
+  outline: none;
 }
 
 #label-email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37 {
