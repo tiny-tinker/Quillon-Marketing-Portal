@@ -1,30 +1,34 @@
-import React from 'react'
-import { push } from 'react-router-redux'
-import { bindActionCreators } from 'redux'
-import { connect } from 'react-redux'
-import Menu from './components/Menu/Menu'
-import Introduction from './sections/Introduction/Introduction'
-import BenefitSection from './sections/Benefits/BenefitSection'
-import Explorer from './sections/Explorer/Explorer'
-import Network from './sections/Network/Network'
-import WebApp from './sections/WebApp/WebApp'
+import React from 'react';
+import Menu from './components/Menu/Menu';
+import Introduction from './sections/Introduction/Introduction';
+import BenefitSection from './sections/Benefits/BenefitSection';
+import Explorer from './sections/Explorer/Explorer';
+import Network from './sections/Network/Network';
+import WebApp from './sections/WebApp/WebApp';
+import Stay from './sections/Stay/Stay';
+import Journey from './sections/Journey/Journey';
+import Roadmap from './sections/Roadmap/Roadmap';
+import WhitePaper from './sections/WhitePaper/WhitePaper';
+import Team from './sections/Team/Team';
+import Connect from './sections/Connect/Connect';
+import Footer from './components/Footer/Footer';
 
 const Home = props => (
-    <React.Fragment>
-      <Menu/>
-      <Introduction/>
-      <BenefitSection/>
-      <Explorer/>
-      <Network/>
-      <WebApp/>
-    </React.Fragment>
+  <React.Fragment>
+    <Menu />
+    <Introduction />
+    <BenefitSection />
+    <Explorer />
+    <Network />
+    <WebApp />
+    <Stay />
+    <Journey />
+    <Roadmap />
+    <WhitePaper />
+    <Team />
+    <Connect />
+    <Footer />
+  </React.Fragment>
 );
 
-const mapDispatchToProps = dispatch => bindActionCreators({
-    changePage: () => push('/about-us')
-}, dispatch);
-
-export default connect(
-    null,
-    mapDispatchToProps
-)(Home)
+export default Home;

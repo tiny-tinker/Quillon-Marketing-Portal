@@ -1,0 +1,30 @@
+.Tabs{
+  position:relative;
+  display:inline-block;
+  margin-bottom:3px;
+  .Tabs_Tab{
+    display:inline-block;
+    padding:1em;
+    background: transparent;
+    color:white;
+    cursor:pointer;
+    .TabLine{
+      height:3px;
+      background:transparent;
+    }
+  }
+  .Tabs_Tab:hover,.Tabs_Tab-active{
+    background:transparent;
+    color:#01bdfd;
+    .TabLine{
+      background:#01bdfd;
+    }
+  }
+  .Tabs_Underline{
+    position:absolute;
+    top:100%;
+    left:0;
+    right:0;
+    border-bottom:3px solid orange;
+  }
+}

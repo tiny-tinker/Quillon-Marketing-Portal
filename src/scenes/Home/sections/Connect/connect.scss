@@ -1,0 +1,48 @@
+.connect-section{
+  background-color:#01013c;
+  .container{
+    .title{
+      font-size:70px;
+      font-family:Montserrat ExtraBold, sans-serif;
+    }
+    @media only screen and (min-width: 600px) {
+      .title{
+        font-size: 70px;
+      }
+    }
+    @media only screen and (max-width: 599px) {
+      .title{
+        font-size: 60px;
+      }
+    }
+    @media only screen and (max-width: 500px) {
+      .title{
+        font-size: 50px;
+      }
+    }
+    @media only screen and (max-width: 430px) {
+      .title{
+        font-size: 45px;
+      }
+    }
+    @media only screen and (max-width: 375px) {
+      .title{
+        font-size: 40px;
+      }
+    }
+    @media only screen and (max-width: 320px) {
+      .title{
+        font-size: 35px;
+      }
+    }
+    .signUpTitle{
+      font-size:23px;
+      font-family:Myriad Pro Regular,sans-serif;
+    }
+    .signUpDescription{
+      width:290px;
+      margin:0 auto;
+      font-family:Myriad Pro Regular,sans-serif;
+    }
+  }
+}
