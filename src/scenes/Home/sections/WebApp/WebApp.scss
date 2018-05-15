@@ -1,4 +1,6 @@
 .webApp-section {
+  padding-bottom:200px;
+  background:#01013c;
   .iMacPCS {
     width: 100%;
   }
@@ -19,7 +21,17 @@
   }
 
   .sectionDescription {
+    width:60%;
+    margin:0 auto;
     color: white;
     text-align: center;
+  }
+  @media only screen and (max-width: 767px) {
+    .sectionDescription{
+      width:90%;
+    }
+  }
+  p{
+    margin-bottom:0;
   }
 }
