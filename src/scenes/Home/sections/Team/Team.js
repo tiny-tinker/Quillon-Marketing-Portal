@@ -6,12 +6,12 @@ import FaArrowLeft from 'react-icons/lib/fa/arrow-left';
 import FaLinkedin from 'react-icons/lib/fa/linkedin';
 import FaInstagram from 'react-icons/lib/fa/instagram';
 
-import avatar1 from './images/team1_Henning_Lubberding.png';
+import avatar1 from './images/team1_Henning_Lubberding.jpg';
 import avatar2 from './images/team2_Mark_Reynolds.jpg';
-import avatar3 from './images/team3_Zachary_Elfman.png';
+import avatar3 from './images/team3_Zachary_Elfman.jpg';
 import avatar4 from './images/team4_Xinzhe_Li.jpg';
 import avatar5 from './images/team5_Qiang_Dong.png';
-import avatar6 from './images/team6_John Magdy.png';
+import avatar6 from './images/team6_John_Magdy.jpg';
 import avatar7 from './images/team7_Damian_Thiele.jpg';
 import avatar8 from './images/team8_Chloe_Bocq.jpg';
 
