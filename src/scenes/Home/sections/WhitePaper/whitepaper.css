@@ -72,29 +72,11 @@
 }
 .whitepaper-section .rightCircle {
   position: absolute;
-  right: 0px;
+  right: 0;
   height: 85%;
-  bottom: -2600px;
 }
 .whitepaper-section .leftCircle {
   position: absolute;
-  left: 0px;
+  left: 0;
   height: 85%;
-  bottom: -2600px;
-}
-@media only screen and (max-width: 400px) {
-  .whitepaper-section .rightCircle {
-    bottom: -1400px;
-  }
-  .whitepaper-section .leftCircle {
-    bottom: -1400px;
-  }
-}
-@media only screen and (max-width: 320px) {
-  .whitepaper-section .rightCircle {
-    bottom: -1700px;
-  }
-  .whitepaper-section .leftCircle {
-    bottom: -1700px;
-  }
 }
