@@ -12,8 +12,10 @@ export default class Journey extends Component {
         <div className="container text-center text-white">
           <div className="title">stay on track</div>
           <div className="description">
-            Lorem ipsum dolor sit am numquam eius modi tempora incidunt ut
-            labore et dolore magnam aliquam quaerat voluptatem
+            Lorem ipsum dolor sit ameto quisquam est, qui dolorem ipsum quia
+            dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+            eius modi tempora incidunt ut labore et dolore magnam aliquam
+            quaerat voluptatem
           </div>
           <img className="rightEllipse" src={rightEffect} />
           <img className="leftEllipse" src={leftEffect} />

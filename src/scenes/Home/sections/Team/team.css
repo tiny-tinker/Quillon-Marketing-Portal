@@ -1,62 +1,70 @@
-.team-section {
-  background-color: #01013c;
-}
 .team-section .container .title {
   font-size: 70px;
   font-family: Montserrat ExtraBold, sans-serif;
 }
+
 @media only screen and (min-width: 600px) {
   .team-section .container .title {
     font-size: 70px;
   }
 }
+
 @media only screen and (max-width: 599px) {
   .team-section .container .title {
     font-size: 60px;
   }
 }
+
 @media only screen and (max-width: 500px) {
   .team-section .container .title {
     font-size: 50px;
   }
 }
+
 @media only screen and (max-width: 430px) {
   .team-section .container .title {
     font-size: 45px;
   }
 }
+
 @media only screen and (max-width: 375px) {
   .team-section .container .title {
     font-size: 40px;
   }
 }
+
 @media only screen and (max-width: 320px) {
   .team-section .container .title {
     font-size: 35px;
   }
 }
+
 .team-section .container .teamDescription {
   font-size: 18px;
   width: 70%;
   margin: 0 auto;
   font-family: Roboto Regular, sans-serif;
 }
+
 @media only screen and (max-width: 992px) {
   .team-section .container .teamDescription {
     font-size: 17px;
   }
 }
+
 @media only screen and (max-width: 767px) {
   .team-section .container .teamDescription {
     font-size: 16px;
   }
 }
+
 @media only screen and (max-width: 576px) {
   .team-section .container .teamDescription {
     font-size: 15px;
     width: 90%;
   }
 }
+
 .team-section .members .carousel .carousel-inner .carousel-item .profile {
   background-color: white;
   width: 100%;
@@ -186,6 +194,7 @@
     height: 130px;
   }
 }
+
 .team-section .members .carousel .carousel-control-prev .arrowLeft {
   width: 80px;
   height: 80px;
@@ -197,6 +206,7 @@
   left: -5px;
   z-index: 100;
 }
+
 .team-section .members .carousel .carousel-control-next .arrowRight {
   width: 80px;
   height: 80px;

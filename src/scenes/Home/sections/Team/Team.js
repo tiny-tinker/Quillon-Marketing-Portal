@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Element } from 'react-scroll';
 
 import FaArrowRight from 'react-icons/lib/fa/arrow-right';
 import FaArrowLeft from 'react-icons/lib/fa/arrow-left';
@@ -89,7 +90,7 @@ export default class Team extends Component {
       'https://www.linkedin.com/in/chlo%C3%A9-bocquillon-052a8b74/'
     ];
     return (
-      <div className="team-section pt-3 pb-5">
+      <Element name="team-section" className="team-section pt-3 pb-5">
         <div className="container text-center text-white">
           <div className="title"> TEAM </div>
           <div className="teamDescription">
@@ -204,7 +205,7 @@ export default class Team extends Component {
             </a>
           </div>
         </div>
-      </div>
+      </Element>
     );
   }
 }

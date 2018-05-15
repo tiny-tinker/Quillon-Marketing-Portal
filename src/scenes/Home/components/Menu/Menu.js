@@ -126,7 +126,7 @@ class Menu extends React.Component {
               </li>
               <li>
                 <Link
-                  to="home-section"
+                  to="roadmap-section"
                   className="page-scroll hvr-underline-from-center"
                   spy={true}
                   smooth={true}
@@ -137,7 +137,7 @@ class Menu extends React.Component {
               </li>
               <li>
                 <Link
-                  to="home-section"
+                  to="team-section"
                   className="page-scroll hvr-underline-from-center"
                   spy={true}
                   smooth={true}
@@ -148,7 +148,7 @@ class Menu extends React.Component {
               </li>
               <li>
                 <Link
-                  to="home-section"
+                  to="contact-section"
                   className="page-scroll hvr-underline-from-center"
                   spy={true}
                   smooth={true}

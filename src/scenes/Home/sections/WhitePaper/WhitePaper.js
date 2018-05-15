@@ -10,6 +10,8 @@ export default class WhitePaper extends Component {
     return (
       <div className="whitepaper-section">
         <div className="container text-center">
+          <img src={rightCircle} className="rightCircle" />
+          <img src={leftCircle} className="leftCircle" />
           <div className="title mt-5 mb-5"> WHITEPAPER </div>
           <div className="description mt-5 mb-5">
             Our roadmap is the result of extensive research and development
@@ -28,8 +30,6 @@ export default class WhitePaper extends Component {
             DOWNLOAD WHITEPAPER{' '}
           </button>
         </div>
-        <img src={rightCircle} className="rightCircle" />
-        <img src={leftCircle} className="leftCircle" />
       </div>
     );
   }

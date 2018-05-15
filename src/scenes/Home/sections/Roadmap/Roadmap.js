@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Element } from 'react-scroll';
 import Tabs from './components/Tabs/Tabs';
 import Item from './components/Item/Item';
 import './roadmap.css';
@@ -80,7 +80,7 @@ export default class Roadmap extends Component {
       Tab4: description4
     };
     return (
-      <div className="roadmap-section pt-5">
+      <Element name="roadmap-section" className="roadmap-section pt-5">
         <div className="container text-center">
           <div className="title text-white">ROADMAP</div>
           <div className="description text-white">
@@ -131,7 +131,7 @@ export default class Roadmap extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </Element>
     );
   }
 }

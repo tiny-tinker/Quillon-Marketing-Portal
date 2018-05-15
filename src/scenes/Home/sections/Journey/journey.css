@@ -1,5 +1,4 @@
 .journey-section {
-  background-color: #01013c;
   padding-bottom: 300px;
 }
 .journey-section .container .title {
@@ -13,13 +12,12 @@
   }
 }
 .journey-section .container .description {
-  width: 40%;
+  width: 60%;
   margin: 0 auto;
 }
 @media only screen and (max-width: 767px) {
   .journey-section .container .description {
     width: 90%;
-    margin: 0 auto;
   }
 }
 .journey-section .container .button {
@@ -37,5 +35,4 @@
   height: 50%;
   position: absolute;
   left: 0;
-  bottom: -600px;
 }

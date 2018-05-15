@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { Element } from 'react-scroll';
 
 import './connect.css';
 
 export default class Connect extends Component {
   render() {
     return (
-      <div className="connect-section pt-5 pb-5">
+      <Element name="contact-section" className="connect-section pt-5 pb-5">
         <div className="container text-center">
           <div className="title text-white mb-3"> CONNECT </div>
           <div className="signUpTitle text-white"> JOIN OUR NEWSLETTER </div>
@@ -18,7 +19,7 @@ export default class Connect extends Component {
             <div id="newsletterSignUpDiv" />
           </div>
         </div>
-      </div>
+      </Element>
     );
   }
 }
