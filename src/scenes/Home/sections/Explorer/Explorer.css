@@ -1,0 +1,51 @@
+.explore-section {
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 146px; }
+  .explore-section .title {
+    margin: 0 0 50px 0;
+    font-size: 3.3em;
+    color: #fff;
+    font-weight: bold; }
+  .explore-section .section-description {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 100px; }
+    @media only screen and (min-width: 767px) {
+      .explore-section .section-description {
+        padding-left: 200px;
+        padding-right: 200px; } }
+  .explore-section .exploreCloud {
+    left: -36px;
+    top: -40px;
+    width: 90%;
+    z-index: -1; }
+    .explore-section .exploreCloud p {
+      text-align: left;
+      color: white; }
+  .explore-section .cloud-parallax-img {
+    margin-top: 100px;
+    overflow: visible;
+    width: 100% !important;
+    height: auto !important;
+    left: 0; }
+  .explore-section .cloud-parallax {
+    overflow: visible !important; }
+  .explore-section .compareStats {
+    font-family: Montserrat-ExtraBold, sans-serif;
+    text-align: left;
+    font-size: 3em;
+    color: #fff; }
+  .explore-section .cloud-first {
+    z-index: -1;
+    width: 25%;
+    margin-left: 25%;
+    display: block;
+    min-height: 1px; }
+  .explore-section .cloud-second {
+    z-index: -1;
+    width: 25%;
+    margin-left: 50%;
+    display: block;
+    min-height: 1px; }

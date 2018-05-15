@@ -6,18 +6,16 @@ import store, { history } from './store'
 import App from './scenes/app';
 import registerServiceWorker from './registerServiceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
-import './global.scss';
+import './global.css';
 
 const target = document.querySelector('#root');
 
 render(
-    <Provider store={store}>
-        <ConnectedRouter history={history}>
-            <div>
-                <App />
-            </div>
-        </ConnectedRouter>
-    </Provider>,
-    target
+  <Provider store={store}>
+    <ConnectedRouter history={history}>
+      <App />
+    </ConnectedRouter>
+  </Provider>,
+  target
 );
 registerServiceWorker();

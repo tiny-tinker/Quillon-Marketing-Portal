@@ -1,0 +1,11 @@
+.benefit-feature {
+  text-align: center; }
+  .benefit-feature .feature-imageContainer img {
+    height: 120px; }
+  .benefit-feature .feature-title {
+    color: #010248;
+    font-size: 1.8em;
+    text-align: center; }
+  .benefit-feature .feature-description {
+    color: #d2d2df;
+    text-align: center; }
