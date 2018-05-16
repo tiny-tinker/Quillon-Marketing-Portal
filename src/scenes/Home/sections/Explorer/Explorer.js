@@ -68,7 +68,7 @@ class Explorer extends React.Component {
                   className="cloud-parallax"
                 />
                 <div className="compareStats">COMPARE LIVE STATS</div>
-                <p>
+                <p className="compareDescription">
                   Check out Quillon with statistics taken directly from our
                   block explorer. All the information you need, directly at your
                   fingertips.
