@@ -37,6 +37,12 @@
   width: 90%;
   margin: auto;
   z-index: -1;
+  text-align: left;
+}
+@media only screen and (max-width: 767px) {
+  .explore-section .exploreCloud {
+    text-align: center;
+  }
 }
 .explore-section .exploreCloud p {
   text-align: left;

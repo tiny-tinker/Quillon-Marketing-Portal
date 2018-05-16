@@ -33,7 +33,6 @@ class Introduction extends React.Component {
             </Typist>
           </div>
           <p className="subtitle">{sectionDescription}</p>
-          <BorerDecoratedButton label="EXPLORE" />
           <div className="scrollIndicatorContainer">
             <ScrollIndicator />
           </div>

@@ -2,6 +2,10 @@ body {
   background-color: #010344;
 }
 
+button:focus {
+  outline: none;
+}
+
 .hover12 figure .top {
   position: absolute;
   left: 0;

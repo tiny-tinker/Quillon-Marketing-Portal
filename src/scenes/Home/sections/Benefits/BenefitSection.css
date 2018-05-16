@@ -1,7 +1,7 @@
 .benefit-section {
   background-color: white;
   position: relative;
-  padding-top: 146px;
+  padding-top: 90px;
 }
 .benefit-section .title {
   color: #010248;
@@ -12,6 +12,7 @@
   margin-bottom: 30px;
 }
 .benefit-section .benefitBottomImage {
+  margin-top: 50px;
   position: relative;
   width: 100%;
 }
