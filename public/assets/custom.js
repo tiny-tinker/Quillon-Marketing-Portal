@@ -23,7 +23,7 @@ $(document).ready(function() {
         console.log("carousel is clicked");
         let $e = $(e.relatedTarget);
         let idx = $e.index();
-        let itemsPerSlide = 3;
+        let itemsPerSlide = 4;
         let totalItems = $('.carousel-item').length;
 
         if (idx >= totalItems-(itemsPerSlide-1)) {

@@ -20,17 +20,13 @@ import './team.css';
 const Profile = function Profile(props) {
   return (
     <div className="profile text-center pt-5 pb-5">
-      <img className="photo" src={props.photo} width="200" height="200" />
+      <img className="photo" src={props.photo} width="150" height="150" />
       <div className="name mt-2"> {props.name} </div>
       <div className="role mt-2"> {props.roleOfTeam} </div>
       <div className="description mt-2"> {props.description} </div>
-      <div className="linkedin-slack mt-5 mb-3">
+      <div className="linkedin-slack mt-3 mb-3">
         <a href={props.linkedin} target="blank">
           <FaLinkedin size="27" color="black" />
-        </a>
-        &nbsp;
-        <a href="" target="blank">
-          <FaInstagram size="25" color="black" />
         </a>
       </div>
     </div>
@@ -108,7 +104,7 @@ export default class Team extends Component {
             data-interval="100000"
           >
             <div className="carousel-inner row w-100 mx-auto" role="listbox">
-              <div className="carousel-item col-md-4 active">
+              <div className="carousel-item col-md-3 active">
                 <Profile
                   photo={teamPhoto[0]}
                   name={teamName[0]}
@@ -117,7 +113,7 @@ export default class Team extends Component {
                   linkedin={urlLinkedin[0]}
                 />-
               </div>
-              <div className="carousel-item col-md-4">
+              <div className="carousel-item col-md-3">
                 <Profile
                   photo={teamPhoto[1]}
                   name={teamName[1]}
@@ -126,7 +122,7 @@ export default class Team extends Component {
                   linkedin={urlLinkedin[1]}
                 />
               </div>
-              <div className="carousel-item col-md-4">
+              <div className="carousel-item col-md-3">
                 <Profile
                   photo={teamPhoto[2]}
                   name={teamName[2]}
@@ -135,7 +131,7 @@ export default class Team extends Component {
                   linkedin={urlLinkedin[2]}
                 />
               </div>
-              <div className="carousel-item col-md-4">
+              <div className="carousel-item col-md-3">
                 <Profile
                   photo={teamPhoto[3]}
                   name={teamName[3]}
@@ -144,7 +140,7 @@ export default class Team extends Component {
                   linkedin={urlLinkedin[3]}
                 />
               </div>
-              <div className="carousel-item col-md-4">
+              <div className="carousel-item col-md-3">
                 <Profile
                   photo={teamPhoto[4]}
                   name={teamName[4]}
@@ -153,7 +149,7 @@ export default class Team extends Component {
                   linkedin={urlLinkedin[4]}
                 />
               </div>
-              <div className="carousel-item col-md-4">
+              <div className="carousel-item col-md-3">
                 <Profile
                   photo={teamPhoto[5]}
                   name={teamName[5]}
@@ -162,7 +158,7 @@ export default class Team extends Component {
                   linkedin={urlLinkedin[5]}
                 />
               </div>
-              <div className="carousel-item col-md-4">
+              <div className="carousel-item col-md-3">
                 <Profile
                   photo={teamPhoto[6]}
                   name={teamName[6]}
@@ -171,7 +167,7 @@ export default class Team extends Component {
                   linkedin={urlLinkedin[6]}
                 />
               </div>
-              <div className="carousel-item col-md-4">
+              <div className="carousel-item col-md-3">
                 <Profile
                   photo={teamPhoto[7]}
                   name={teamName[7]}
