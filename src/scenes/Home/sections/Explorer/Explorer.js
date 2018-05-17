@@ -1,5 +1,10 @@
 import React from 'react';
+import { bindActionCreators } from 'redux';
+import PropTypes from 'prop-types';
 import { Element } from 'react-scroll';
+import { connect } from 'react-redux';
+import { getBlockExplorerInfo } from '../../../../modules/blockExplorer/blockExplorerAction';
+
 import ExploreStatus from './components/ExploreStatus/ExploreStatus';
 import BorderDecoratedButton from '../../components/BorderDecoratedButton/BorderDecoratedButton';
 import { Parallax, Background } from 'react-parallax';
@@ -13,7 +18,14 @@ import cloudFirst from './images/cloud_first.png';
 import cloudSecond from './images/clound_second.png';
 
 class Explorer extends React.Component {
+  componentDidMount() {
+    this.props.blockExplorerActions.getBlockExplorerInfo();
+  }
+
   render() {
+    const { blockInfo } = this.props.blockExplorer;
+    let hashRate = blockInfo.hashRate / 1000000000;
+    console.log(blockInfo);
     return (
       <Element name="explore-section" className="explore-section">
         <div className="container">
@@ -31,14 +43,14 @@ class Explorer extends React.Component {
                   <ExploreStatus
                     imageUrl={group}
                     label="NUMBER OF\nMASTERNODES"
-                    value="7777"
+                    value={blockInfo.nodeCount}
                   />
                 </div>
                 <div className="col-6">
                   <ExploreStatus
                     imageUrl={forma}
                     label="QLN IN\nCIRCULATION"
-                    value="3500000"
+                    value={blockInfo.circulation}
                   />
                 </div>
               </div>
@@ -47,14 +59,14 @@ class Explorer extends React.Component {
                   <ExploreStatus
                     imageUrl={hashrate}
                     label="HASHRATE\nIN GH/S"
-                    value="452.92"
+                    value={hashRate}
                   />
                 </div>
                 <div className="col-6">
                   <ExploreStatus
                     imageUrl={shape}
                     label="CURRENT BLOCK\nNUMBER"
-                    value="281.377"
+                    value={blockInfo.blockIndex}
                   />
                 </div>
               </div>
@@ -101,4 +113,24 @@ class Explorer extends React.Component {
   }
 }
 
-export default Explorer;
+Explorer.propTypes = {
+  blockExplorerActions: PropTypes.shape({
+    getBlockExplorerInfo: PropTypes.func
+  })
+};
+
+Explorer.defaultProps = {
+  blockExplorerActions: {}
+};
+
+export default connect(
+  state => ({ ...state }),
+  dispatch => ({
+    blockExplorerActions: bindActionCreators(
+      {
+        getBlockExplorerInfo
+      },
+      dispatch
+    )
+  })
+)(Explorer);
