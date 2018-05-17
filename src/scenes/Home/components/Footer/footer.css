@@ -3,7 +3,8 @@
 }
 .footer-section .container .title {
   margin-bottom: 40px;
-  font-family: Myriad Pro Regular, sans-serif;
+  font-family: 'Myriad Pro Regular', sans-serif;
+  font-weight: bold;
 }
 .footer-section .container .row .seven-cols .col-1 {
   width: 14.285714285714285714285714285714%;

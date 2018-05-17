@@ -8,8 +8,7 @@ export default class Connect extends Component {
     return (
       <Element name="contact-section" className="connect-section pt-5 pb-5">
         <div className="container text-center">
-          <div className="title text-white mb-3"> CONNECT </div>
-          <div className="signUpTitle text-white"> JOIN OUR NEWSLETTER </div>
+          <div className="title text-white mb-3"> NEWSLETTER </div>
           <div className="signUpDescription text-white mt-2">
             {' '}
             Get Exclusive Content, offers and more by joining our newsletter

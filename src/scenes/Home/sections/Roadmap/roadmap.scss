@@ -2,7 +2,8 @@
   .container{
     .title{
       font-size:70px;
-      font-family: Montserrat ExtraBold, serif;
+      font-family: Montserrat-ExtraBold, sans-serif;
+      font-weight:bold;
     }
     @media only screen and (min-width: 600px) {
       .title{
@@ -38,7 +39,7 @@
       width:80%;
       margin:0 auto;
       font-size:17px;
-      font-family:Roboto Regular, sans-serif;
+      font-family:"Roboto Regular", sans-serif;
       text-transform:uppercase;
     }
     .rightEllipse{
@@ -48,7 +49,7 @@
     }
     .roadmapDetail{
       padding-top:100px;
-      font-family:Myriad Pro Regular, sans serif;
+      font-family:"Myriad Pro Regular", sans-serif;
       .tabContent{
         width:62%;
         margin:0 auto;
