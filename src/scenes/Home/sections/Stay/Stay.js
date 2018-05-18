@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './stay.css';
 import stayCenter from './images/stayCenter.png';
-import leftEffect from './images/stayLeftEffect.png';
+import leftCloud from './images/stayLeftCloud.png';
 import rightEffect from './images/stayRightEffect.png';
 
 export default class Journey extends Component {
@@ -18,7 +18,7 @@ export default class Journey extends Component {
             quaerat voluptatem
           </div>
           <img className="rightEllipse" src={rightEffect} />
-          <img className="leftEllipse" src={leftEffect} />
+          <img className="leftCloud" src={leftCloud} />
           <img className="stayCenter mt-5 mb-5" src={stayCenter} />
         </div>
       </div>

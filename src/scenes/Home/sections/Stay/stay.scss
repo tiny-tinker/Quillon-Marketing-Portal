@@ -25,10 +25,11 @@
       right:0;
       height:80%;
     }
-    .leftEllipse{
+    .leftCloud{
       position:absolute;
       left:0;
-      height:80%;
+      height:60%;
+      z-index:-1;
     }
   }
 }

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-import rightCircle from './images/whitepaperRightCircle.png';
-import leftCircle from './images/whitepaperLeftCircle.png';
+import leftEffect from './images/whitepaperLeftEffect.png';
+import centerImage1 from './images/whitepaperCenter1.png';
+import centerImage2 from './images/whitepaperCenter2.png';
 
 import './whitepaper.css';
 
@@ -10,10 +11,11 @@ export default class WhitePaper extends Component {
     return (
       <div className="whitepaper-section">
         <div className="container text-center">
-          <img src={rightCircle} className="rightCircle" />
-          <img src={leftCircle} className="leftCircle" />
-          <div className="title mt-5 mb-5"> WHITEPAPER </div>
-          <div className="description mt-5 mb-5">
+          <img src={centerImage1} className="centerImage1" />
+          <img src={centerImage2} className="centerImage2" />
+          <img src={leftEffect} className="leftEffect" />
+          <div className="title mt-5 mb-3"> WHITEPAPER </div>
+          <div className="description mt-3 mb-5">
             Our roadmap is the result of extensive research and development
             which we are happy to share in more detail through our whitepaper.
             The result of hours of work from our whole team the Quillon
