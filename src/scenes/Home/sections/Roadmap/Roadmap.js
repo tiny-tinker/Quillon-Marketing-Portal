@@ -78,6 +78,19 @@ export default class Roadmap extends Component {
       Tab3: description3,
       Tab4: description4
     };
+
+    const progressValue1 = [90, 50, 80, 70];
+    const progressValue2 = [30, 57, 40, 93];
+    const progressValue3 = [20, 70, 24, 78, 10];
+    const progressValue4 = [80, 50, 50, 70, 55];
+
+    const value = {
+      Tab1: progressValue1,
+      Tab2: progressValue2,
+      Tab3: progressValue3,
+      Tab4: progressValue4
+    };
+
     return (
       <Element name="roadmap-section" className="roadmap-section pt-5">
         <div className="container text-center">
@@ -101,30 +114,13 @@ export default class Roadmap extends Component {
               <div key="Tab4"> FINANCIAL SERVICES </div>
             </Tabs>
             <div className="tabContent mt-5 pb-5">
-              <Item
-                title={content[this.state.active][0]}
-                content={description[this.state.active][0]}
-              />
-              <Item
-                title={content[this.state.active][1]}
-                content={description[this.state.active][1]}
-              />
-              <Item
-                title={content[this.state.active][2]}
-                content={description[this.state.active][2]}
-              />
-              <Item
-                title={content[this.state.active][3]}
-                content={description[this.state.active][3]}
-              />
-              {content[this.state.active].length > 4 ? (
+              {content[this.state.active].map((content, index) => (
                 <Item
-                  title={content[this.state.active][4]}
-                  content={description[this.state.active][4]}
+                  title={content}
+                  content={description[this.state.active][index]}
+                  progressValue={value[this.state.active][index]}
                 />
-              ) : (
-                <div> </div>
-              )}
+              ))}
             </div>
           </div>
         </div>

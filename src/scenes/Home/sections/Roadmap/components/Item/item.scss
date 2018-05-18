@@ -1,10 +1,47 @@
 .item{
   .itemTitle{
-    font-size:20px;
+    font-size:18px;
     text-transform: uppercase;
+    .progressValue{
+      float:right;
+      .value{
+        color:#a502d6;
+      }
+      .percentage{
+        background:linear-gradient(to right, #a502d6,#a502d6,#0002eb, #0002eb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
   }
-  .line{
-    height:3px;
-    background:linear-gradient(to right, #0002eb, #0002eb, #a502d6,#a502d6, #313150, #313150);
+  @media only screen and (max-width: 485px) {
+    .itemTitle{
+      font-size:16px;
+    }
+  }
+  @media only screen and (max-width: 440px) {
+    .itemTitle{
+      font-size:15px;
+    }
+  }
+  @media only screen and (max-width: 410px) {
+    .itemTitle{
+      font-size:14px;
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    .itemTitle{
+      font-size:13px;
+    }
+  }
+  @media only screen and (max-width: 365px) {
+    .itemTitle{
+      font-size:12px;
+    }
+  }
+  @media only screen and (max-width: 330px) {
+    .itemTitle{
+      font-size:11px;
+    }
   }
 }

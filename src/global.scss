@@ -251,3 +251,10 @@ Attribution required
   background:transparent;
   outline:none;
 }
+.progressbar-container{
+  background:#313150;
+}
+.progressbar-progress{
+  background:linear-gradient(to right, #0002eb, #0002eb, #a502d6,#a502d6);
+  height:3px !important;
+}
