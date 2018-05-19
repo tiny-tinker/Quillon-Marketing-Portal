@@ -28,8 +28,9 @@
   height: 80%;
 }
 
-.stay-section .container .leftEllipse {
+.stay-section .container .leftCloud {
   position: absolute;
   left: 0;
-  height: 80%;
+  height: 60%;
+  z-index: -1;
 }

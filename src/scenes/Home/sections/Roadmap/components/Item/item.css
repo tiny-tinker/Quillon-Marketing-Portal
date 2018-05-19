@@ -1,17 +1,51 @@
 .item .itemTitle {
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
 }
+.item .itemTitle .progressValue {
+  float: right;
+}
+.item .itemTitle .progressValue .value {
+  color: #a502d6;
+}
+.item .itemTitle .progressValue .percentage {
+  background: linear-gradient(to right, #a502d6, #a502d6, #0002eb, #0002eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-.item .line {
-  height: 3px;
-  background: linear-gradient(
-    to right,
-    #0002eb,
-    #0002eb,
-    #a502d6,
-    #a502d6,
-    #313150,
-    #313150
-  );
+@media only screen and (max-width: 485px) {
+  .item .itemTitle {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .item .itemTitle {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .item .itemTitle {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .item .itemTitle {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .item .itemTitle {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .item .itemTitle {
+    font-size: 11px;
+  }
 }

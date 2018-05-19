@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './journey.css';
-import leftEllipse from './images/LeftEllipse.png';
+import journeyRightCloud from './images/journeyRightCloud.png';
 
 export default class Journey extends Component {
   render() {
@@ -22,7 +22,7 @@ export default class Journey extends Component {
             head to our app{' '}
           </button>
         </div>
-        <img className="leftEllipse" src={leftEllipse} />
+        <img className="journeyRightCloud" src={journeyRightCloud} />
       </div>
     );
   }

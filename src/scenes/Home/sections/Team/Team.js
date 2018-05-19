@@ -111,7 +111,7 @@ export default class Team extends Component {
                   roleOfTeam={teamRole[0]}
                   description={teamDescription[0]}
                   linkedin={urlLinkedin[0]}
-                />-
+                />
               </div>
               <div className="carousel-item col-md-3">
                 <Profile

@@ -1,5 +1,5 @@
 body {
-  background-color: #010344;
+  background-color: #01013b;
 }
 
 button:focus {
@@ -277,4 +277,13 @@ Attribution required
 .btn-secondary:not(:disabled):not(.disabled):active {
   background: transparent;
   outline: none;
+}
+
+.progressbar-container {
+  background: #313150;
+}
+
+.progressbar-progress {
+  background: linear-gradient(to right, #0002eb, #0002eb, #a502d6, #a502d6);
+  height: 3px !important;
 }

@@ -48,12 +48,6 @@
   text-transform: uppercase;
 }
 
-.roadmap-section .container .rightEllipse {
-  position: absolute;
-  right: 0;
-  height: 100%;
-}
-
 .roadmap-section .container .roadmapDetail {
   padding-top: 100px;
   font-family: 'Myriad Pro Regular', sans-serif;
@@ -77,4 +71,11 @@
     width: 100%;
     margin: 0 auto;
   }
+}
+
+.roadmap-section .container .leftEffect {
+  height: 70%;
+  position: absolute;
+  left: 0;
+  z-index: -1;
 }
