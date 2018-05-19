@@ -1,19 +1,33 @@
 .webApp-section {
   position: relative;
 }
-.webApp-section .iMacPCS {
-  width: 100%;
-}
-.webApp-section .flow {
+.webApp-section .ellipseDecorateH {
   position: absolute;
   width: 100%;
   top: 0;
-  margin-top: -297px;
+  left: 0;
+  z-index: -100;
+  opacity: 0.3;
+}
+.webApp-section .iMacPCS {
+  width: 100%;
+}
+.webApp-section .flow-container {
+  position: relative;
+  overflow: unset !important;
+  display: inline-block;
+  width: 100%;
+}
+.webApp-section .flow-container .flow {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  margin-top: -397px;
   z-index: -100;
   height: 560px;
 }
 @media only screen and (max-width: 991px) {
-  .webApp-section .flow {
+  .webApp-section .flow-container .flow {
     margin-top: -164px;
     height: 300px;
   }
