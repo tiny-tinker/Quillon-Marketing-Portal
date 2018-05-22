@@ -32,7 +32,7 @@ export default class Team extends Component {
       'Founder',
       'Head of Development',
       'Head of Monetary Policy',
-      'Senior Developer',
+      'Developer',
       'Senior Developer',
       'Designer',
       'Legal Advisor',

@@ -1,5 +1,11 @@
 .benefit-feature {
   text-align: center;
+  padding: 40px 40px;
+}
+@media only screen and (max-width: 767px) {
+  .benefit-feature {
+    padding: 40px 0;
+  }
 }
 .benefit-feature .feature-imageContainer img {
   height: 120px;
