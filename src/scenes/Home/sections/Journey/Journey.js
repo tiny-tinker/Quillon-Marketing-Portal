@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Parallax, Background } from 'react-parallax';
 
 import './journey.css';
 import journeyRightCloud from './images/journeyRightCloud.png';
@@ -22,7 +23,16 @@ export default class Journey extends Component {
             head to our app{' '}
           </button>
         </div>
-        <img className="journeyRightCloud" src={journeyRightCloud} />
+        <div className="w-100 position-relative">
+          <div className="journeyRightCloud">
+            <Parallax
+              strength={200}
+              bgImage={journeyRightCloud}
+              bgClassName="cloud-parallax-img"
+              className="cloud-parallax"
+            />
+          </div>
+        </div>
       </div>
     );
   }

@@ -1,14 +1,40 @@
 .footer-section {
-  padding-bottom: 150px;
+  margin-top: 200px;
+  z-index: 100;
 }
-.footer-section .container .title {
-  margin-bottom: 40px;
+.footer-section .menu-title,
+.footer-section .social-title,
+.footer-section .newsletter-title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 22px;
   font-family: 'Myriad Pro Regular', sans-serif;
   font-weight: bold;
 }
-.footer-section .container .row .seven-cols .col-1 {
-  width: 14.285714285714285714285714285714%;
-  *width: 14.285714285714285714285714285714%;
-  flex: none;
-  max-width: none;
+.footer-section .menu-content {
+  font-family: 'Myriad Pro Regular', sans-serif;
+}
+.footer-section .menu-content a {
+  color: white;
+  opacity: 0.6;
+}
+.footer-section .menu-content a:hover {
+  opacity: 1;
+}
+.footer-section .newsletter-description {
+  color: white;
+  font-family: 'Myriad Pro Regular', sans-serif;
+}
+.footer-section .copyright {
+  margin-top: 80px;
+  margin-bottom: 300px;
+}
+.footer-section .copyright .line {
+  height: 1px;
+  background-color: rgba(41, 84, 130, 0.4);
+  opacity: 20%;
+}
+.footer-section .copyright .text {
+  font-size: 19px;
+  color: rgba(77, 136, 199, 0.4);
 }

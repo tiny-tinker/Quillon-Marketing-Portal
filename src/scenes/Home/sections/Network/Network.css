@@ -11,6 +11,16 @@
   font-family: Montserrat-ExtraBold, sans-serif;
   font-weight: bold;
 }
+@media only screen and (max-width: 420px) {
+  .network-section .title {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .network-section .title {
+    font-size: 40px;
+  }
+}
 .network-section .section-description {
   color: #fff;
   text-align: center;

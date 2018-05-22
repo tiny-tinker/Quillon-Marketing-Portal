@@ -1,20 +1,38 @@
 .footer-section{
-  padding-bottom:150px;
-  .container{
-    .title{
-      margin-bottom:40px;
-      font-family:"Myriad Pro Regular",sans-serif;
-      font-weight:bold;
+  margin-top:200px;
+  z-index:100;
+  .menu-title, .social-title, .newsletter-title{
+    text-transform: uppercase;
+    color:white;
+    font-size:22px;
+    font-family:"Myriad Pro Regular",sans-serif;
+    font-weight:bold;
+  }
+  .menu-content{
+    font-family:"Myriad Pro Regular",sans-serif;
+    a{
+      color:white;
+      opacity:0.6;
     }
-    .row{
-      .seven-cols{
-        .col-1{
-          width: 14.285714285714285714285714285714%;
-          *width: 14.285714285714285714285714285714%;
-          flex:none;
-          max-width:none;
-        }
-      }
+    a:hover{
+      opacity:1;
+    }
+  }
+  .newsletter-description{
+    color:white;
+    font-family:"Myriad Pro Regular",sans-serif;
+  }
+  .copyright{
+    margin-top:80px;
+    margin-bottom:300px;
+    .line{
+      height:1px;
+      background-color:rgba(41, 84, 130, 0.4);
+      opacity:20%;
+    }
+    .text{
+      font-size:19px;
+      color:rgba(77, 136, 199, 0.4);
     }
   }
 }

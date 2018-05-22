@@ -27,6 +27,16 @@
   font-size: 3.3em;
   color: #fff;
 }
+@media only screen and (max-width: 420px) {
+  .intro-section .title {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .intro-section .title {
+    font-size: 40px;
+  }
+}
 .intro-section .subtitle {
   font-family: Roboto, sans-serif;
   font-weight: lighter;

@@ -1,4 +1,6 @@
 .team-section{
+  background: url('./images/team_bg.png') no-repeat;
+  background-size: 100% 100%;
   .container{
     .title{
       font-size:4.3em;
@@ -16,22 +18,7 @@
     }
     @media only screen and (max-width: 500px) {
       .title{
-        font-size: 50px;
-      }
-    }
-    @media only screen and (max-width: 430px) {
-      .title{
-        font-size: 45px;
-      }
-    }
-    @media only screen and (max-width: 375px) {
-      .title{
-        font-size: 40px;
-      }
-    }
-    @media only screen and (max-width: 320px) {
-      .title{
-        font-size: 35px;
+        font-size: 55px;
       }
     }
     .teamDescription{
@@ -57,83 +44,30 @@
       }
     }
   }
+  .logo{
+    position:absolute;
+    right:0;
+    width:50%;
+    transform:translateY(-250px);
+  }
   .members{
-    .carousel{
-      .carousel-inner{
-        .carousel-item{
-          .profile{
-            background-color:white;
-            width:100%;
-            .photo{
-              border-radius:50%;
-              z-index:1;
-              -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-              filter: grayscale(100%);
-            }
-            .name{
-              font-size:26px;
-              text-transform: uppercase;
-              font-family:Montserrat-ExtraBold, sans-serif;
-            }
-            .role{
-              font-size:18px;
-              color:#00d2ff;
-              text-transform: uppercase;
-              height:40px;
-              font-family:"Myriad Pro Regular", sans-serif;
-            }
-            .description{
-              width:85%;
-              height:120px;
-              margin:0 auto;
-              font-family:"Myriad Pro Regular", sans-serif;
-              color:black;
-              text-align:justify;
-            }
-            @media only screen and (max-width: 1400px) {
-              .description{
-                height:80px;
-              }
-            }
-            @media only screen and (max-width: 1234px) {
-              .description{
-                height:105px;
-              }
-            }
-            @media only screen and (max-width: 1115px) {
-              .description{
-                height:130px;
-              }
-            }
-            @media only screen and (max-width: 922px) {
-              .description{
-                height:150px;
-              }
-            }
-            @media only screen and (max-width: 865px) {
-              .description{
-                height:180px;
-              }
-            }
-            @media only screen and (max-width: 835px) {
-              .description{
-                height:210px;
-              }
-            }
-            @media only screen and (max-width: 835px) {
-              .description{
-                height:220px;
-              }
-            }
-            @media only screen and (max-width: 767px) {
-              .description{
-                height:130px;
-              }
-            }
-          }
-        }
+    @media (min-width: 1400px) {
+      .carousel-div {
+        flex: 0 0 130%;
+        max-width: 150%;
+        transform: translateX(-301px);
       }
-      .carousel-control-prev{
+    }
+    @media only screen and (max-width: 1400px){
+      .carousel-div {
+        flex: 0 0 100%;
+        max-width: 100%;
+        transform: translateX(0px);
+      }
+    }
+    .carousel{
+      z-index:100;
+      .carousel-control{
         .arrowLeft{
           width: 80px;
           height: 80px;
@@ -142,11 +76,11 @@
           padding-top: 22px;
           padding-left: 14px;
           position: absolute;
-          left: -5px;
+          left: -85px;
+          top: 230px;
+          opacity:0.6;
           z-index:100;
         }
-      }
-      .carousel-control-next{
         .arrowRight{
           width: 80px;
           height: 80px;
@@ -155,8 +89,18 @@
           padding-top: 22px;
           padding-right: 14px;
           position: absolute;
-          right: -5px;
+          right: -85px;
+          top: 230px;
+          opacity:0.6;
           z-index:100;
+        }
+        @media only screen and (max-width: 767px) {
+          .arrowLeft{
+            left: -33px;
+          }
+          .arrowRight{
+            right:-55px;
+          }
         }
       }
     }

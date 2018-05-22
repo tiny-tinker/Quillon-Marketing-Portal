@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Progress from 'react-progressbar';
-//let Progress = require('react-progressbar');
-
 import ReadMore from '../ReadMore/ReadMore';
 import './item.css';
 

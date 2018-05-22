@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { Element } from 'react-scroll';
-
+import Profile from './components/Profile/Profile';
+import Footer from '../../components/Footer/Footer';
 import FaArrowRight from 'react-icons/lib/fa/arrow-right';
 import FaArrowLeft from 'react-icons/lib/fa/arrow-left';
-import FaLinkedin from 'react-icons/lib/fa/linkedin';
-import FaInstagram from 'react-icons/lib/fa/instagram';
 
 import avatar1 from './images/team1_Henning_Lubberding.jpg';
 import avatar2 from './images/team2_Mark_Reynolds.jpg';
@@ -16,22 +15,6 @@ import avatar7 from './images/team7_Damian_Thiele.jpg';
 import avatar8 from './images/team8_Chloe_Bocq.jpg';
 
 import './team.css';
-
-const Profile = function Profile(props) {
-  return (
-    <div className="profile text-center pt-5 pb-5">
-      <img className="photo" src={props.photo} width="150" height="150" />
-      <div className="name mt-2"> {props.name} </div>
-      <div className="role mt-2"> {props.roleOfTeam} </div>
-      <div className="description mt-2"> {props.description} </div>
-      <div className="linkedin-slack mt-3 mb-3">
-        <a href={props.linkedin} target="blank">
-          <FaLinkedin size="27" color="black" />
-        </a>
-      </div>
-    </div>
-  );
-};
 
 export default class Team extends Component {
   render() {
@@ -96,111 +79,67 @@ export default class Team extends Component {
             contributing yourself
           </div>
         </div>
-        <div className="members container-fluid mt-5">
-          <div
-            id="carouselExample"
-            className="carousel slide"
-            data-ride="carousel"
-            data-interval="100000"
-          >
-            <div className="carousel-inner row w-100 mx-auto" role="listbox">
-              <div className="carousel-item col-md-3 active">
-                <Profile
-                  photo={teamPhoto[0]}
-                  name={teamName[0]}
-                  roleOfTeam={teamRole[0]}
-                  description={teamDescription[0]}
-                  linkedin={urlLinkedin[0]}
-                />
-              </div>
-              <div className="carousel-item col-md-3">
-                <Profile
-                  photo={teamPhoto[1]}
-                  name={teamName[1]}
-                  roleOfTeam={teamRole[1]}
-                  description={teamDescription[1]}
-                  linkedin={urlLinkedin[1]}
-                />
-              </div>
-              <div className="carousel-item col-md-3">
-                <Profile
-                  photo={teamPhoto[2]}
-                  name={teamName[2]}
-                  roleOfTeam={teamRole[2]}
-                  description={teamDescription[2]}
-                  linkedin={urlLinkedin[2]}
-                />
-              </div>
-              <div className="carousel-item col-md-3">
-                <Profile
-                  photo={teamPhoto[3]}
-                  name={teamName[3]}
-                  roleOfTeam={teamRole[3]}
-                  description={teamDescription[3]}
-                  linkedin={urlLinkedin[3]}
-                />
-              </div>
-              <div className="carousel-item col-md-3">
-                <Profile
-                  photo={teamPhoto[4]}
-                  name={teamName[4]}
-                  roleOfTeam={teamRole[4]}
-                  description={teamDescription[4]}
-                  linkedin={urlLinkedin[4]}
-                />
-              </div>
-              <div className="carousel-item col-md-3">
-                <Profile
-                  photo={teamPhoto[5]}
-                  name={teamName[5]}
-                  roleOfTeam={teamRole[5]}
-                  description={teamDescription[5]}
-                  linkedin={urlLinkedin[5]}
-                />
-              </div>
-              <div className="carousel-item col-md-3">
-                <Profile
-                  photo={teamPhoto[6]}
-                  name={teamName[6]}
-                  roleOfTeam={teamRole[6]}
-                  description={teamDescription[6]}
-                  linkedin={urlLinkedin[6]}
-                />
-              </div>
-              <div className="carousel-item col-md-3">
-                <Profile
-                  photo={teamPhoto[7]}
-                  name={teamName[7]}
-                  roleOfTeam={teamRole[7]}
-                  description={teamDescription[7]}
-                  linkedin={urlLinkedin[7]}
-                />
+        <div className="members mt-4">
+          <div className="row mr-0">
+            <div className="col-xs-11 col-md-11 col-centered">
+              <div
+                id="carousel"
+                className="carousel slide"
+                data-ride="carousel"
+                data-type="multi"
+                data-interval="2500"
+              >
+                <div className="carousel-inner">
+                  {[1, 2, 3, 4, 5, 6, 7].map((item, index) => (
+                    <div className="item">
+                      <div className="carousel-col">
+                        <div className="block img-responsive">
+                          <Profile
+                            photo={teamPhoto[index]}
+                            name={teamName[index]}
+                            roleOfTeam={teamRole[index]}
+                            description={teamDescription[index]}
+                            linkedin={urlLinkedin[index]}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                  <div className="item active">
+                    <div className="carousel-col">
+                      <div className="block img-responsive">
+                        <Profile
+                          photo={teamPhoto[7]}
+                          name={teamName[7]}
+                          roleOfTeam={teamRole[7]}
+                          description={teamDescription[7]}
+                          linkedin={urlLinkedin[7]}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="left carousel-control">
+                  <a href="#carousel" role="button" data-slide="prev">
+                    <div className="arrowLeft">
+                      <FaArrowLeft color="white" size="30" />
+                    </div>
+                    <span className="sr-only">Previous</span>
+                  </a>
+                </div>
+                <div className="right carousel-control">
+                  <a href="#carousel" role="button" data-slide="next">
+                    <div className="arrowRight">
+                      <FaArrowRight color="white" size="30" />
+                    </div>
+                    <span className="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
             </div>
-            <a
-              className="carousel-control-prev"
-              href="#carouselExample"
-              role="button"
-              data-slide="prev"
-            >
-              <div className="arrowLeft">
-                <FaArrowLeft color="white" size="30" />
-              </div>
-              <span className="sr-only">Previous</span>
-            </a>
-            <a
-              className="carousel-control-next text-faded"
-              href="#carouselExample"
-              role="button"
-              data-slide="next"
-            >
-              <div className="arrowRight">
-                <FaArrowRight color="white" size="30" />
-              </div>
-              <span className="sr-only">Next</span>
-            </a>
           </div>
         </div>
+        <Footer />
       </Element>
     );
   }

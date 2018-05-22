@@ -1,5 +1,5 @@
 .journey-section {
-  padding-bottom: 300px;
+  padding-bottom: 250px;
 }
 .journey-section .container .title {
   font-size: 40px;
@@ -33,7 +33,19 @@
   background: linear-gradient(to right, #00d2ff, #196cff);
 }
 .journey-section .journeyRightCloud {
-  height: 50%;
-  position: absolute;
-  right: 0;
+  z-index: -1;
+  width: 20%;
+  margin-left: 80%;
+  display: block;
+  min-height: 1px;
+}
+.journey-section .cloud-parallax-img {
+  overflow: visible;
+  width: 100% !important;
+  height: auto !important;
+  left: 0;
+}
+.journey-section .cloud-parallax {
+  overflow: visible !important;
+  z-index: -100;
 }

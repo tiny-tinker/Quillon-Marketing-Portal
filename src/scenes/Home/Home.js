@@ -10,8 +10,6 @@ import Journey from './sections/Journey/Journey';
 import Roadmap from './sections/Roadmap/Roadmap';
 import WhitePaper from './sections/WhitePaper/WhitePaper';
 import Team from './sections/Team/Team';
-import Connect from './sections/Connect/Connect';
-import Footer from './components/Footer/Footer';
 
 const Home = props => (
   <React.Fragment>
@@ -26,8 +24,6 @@ const Home = props => (
     <Roadmap />
     <WhitePaper />
     <Team />
-    <Connect />
-    <Footer />
   </React.Fragment>
 );
 
