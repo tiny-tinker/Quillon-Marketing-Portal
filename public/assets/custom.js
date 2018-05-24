@@ -17,6 +17,13 @@ $(document).ready(function() {
     const formId = document.getElementsByClassName('hbspt-form')[0].id;
     $(`#`.concat(formId)).detach().appendTo('#newsletterSignUpDiv');
 
+    //document.getElementById("email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37").placeholder = "Type your email here";
+    //$('#email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37').attr('placeholder','Some New Text');
+    setTimeout(function(){
+        console.log("-------------------------------");
+        console.log(document.getElementById("email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37"));
+    } ,1000);
+
     //------------ team section -----------------//
     $('.carousel[data-type="multi"] .item').each(function() {
         var next = $(this).next();

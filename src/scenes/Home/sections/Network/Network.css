@@ -50,14 +50,10 @@
 }
 .network-section .trade-subImage,
 .network-section .earn-subImage {
-  margin: 0 auto;
-  margin-top: 47px;
-  margin-bottom: 15px;
+  margin: 47px auto 15px;
 }
 .network-section .hold-subImage {
-  margin: 0 auto;
-  margin-top: 72px;
-  margin-bottom: 15px;
+  margin: 72px auto 15px;
 }
 .network-section .chooseWallet-image {
   margin-top: 69px;

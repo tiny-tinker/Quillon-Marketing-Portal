@@ -160,6 +160,10 @@ a:focus {
   border-color: #dc7a23 #ffd461 #dc7a23 #dc7a23;
 }
 
+#email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37:focus {
+  outline: none;
+}
+
 .hs-button {
   margin-top: 15px;
   background: transparent;

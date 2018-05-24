@@ -26,8 +26,9 @@
   margin: 0 auto;
   font-family: 'Myriad Pro Regular', sans-serif;
   color: black;
-  text-align: justify;
   font-size: 15px;
+  text-align: justify;
+  text-align-last: center;
 }
 .profile .linkedin {
   position: absolute;
