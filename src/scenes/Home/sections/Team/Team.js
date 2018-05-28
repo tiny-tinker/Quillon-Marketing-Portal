@@ -69,7 +69,7 @@ export default class Team extends Component {
       'https://www.linkedin.com/in/chlo%C3%A9-bocquillon-052a8b74/'
     ];
     return (
-      <Element name="team-section" className="team-section pt-3 pb-5">
+      <Element name="team-section" className="team-section pt-3 pb-1">
         <div className="container text-center text-white">
           <div className="title"> TEAM </div>
           <div className="teamDescription">
@@ -80,7 +80,7 @@ export default class Team extends Component {
           </div>
         </div>
         <div className="members mt-4">
-          <div className="row mr-0">
+          <div className="row mr-0 ml-0">
             <div className="col-xs-11 col-md-11 col-centered">
               <div
                 id="carousel"
@@ -90,34 +90,34 @@ export default class Team extends Component {
                 data-interval="2500"
               >
                 <div className="carousel-inner">
+                  <div className="item active">
+                    <div className="carousel-col">
+                      <div className="block img-responsive">
+                        <Profile
+                          photo={teamPhoto[0]}
+                          name={teamName[0]}
+                          roleOfTeam={teamRole[0]}
+                          description={teamDescription[0]}
+                          linkedin={urlLinkedin[0]}
+                        />
+                      </div>
+                    </div>
+                  </div>
                   {[1, 2, 3, 4, 5, 6, 7].map((item, index) => (
                     <div className="item">
                       <div className="carousel-col">
                         <div className="block img-responsive">
                           <Profile
-                            photo={teamPhoto[index]}
-                            name={teamName[index]}
-                            roleOfTeam={teamRole[index]}
-                            description={teamDescription[index]}
-                            linkedin={urlLinkedin[index]}
+                            photo={teamPhoto[index + 1]}
+                            name={teamName[index + 1]}
+                            roleOfTeam={teamRole[index + 1]}
+                            description={teamDescription[index + 1]}
+                            linkedin={urlLinkedin[index + 1]}
                           />
                         </div>
                       </div>
                     </div>
                   ))}
-                  <div className="item active">
-                    <div className="carousel-col">
-                      <div className="block img-responsive">
-                        <Profile
-                          photo={teamPhoto[7]}
-                          name={teamName[7]}
-                          roleOfTeam={teamRole[7]}
-                          description={teamDescription[7]}
-                          linkedin={urlLinkedin[7]}
-                        />
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <div className="left carousel-control">
                   <a href="#carousel" role="button" data-slide="prev">

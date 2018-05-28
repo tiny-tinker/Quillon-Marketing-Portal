@@ -32,6 +32,11 @@
       display: block;
       min-height: 1px;
     }
+    @media only screen and (max-width: 2000px) {
+      .leftCloud{
+        margin-left:-45%;
+      }
+    }
     @media only screen and (max-width: 1680px) {
       .leftCloud{
         margin-left:-26%;

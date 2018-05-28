@@ -20,7 +20,7 @@ export default class Tabs extends Component {
               }}
             >
               {child}
-              <div className="TabLine mt-3" />
+              <div className={'TabLine TabLine' + i + ' mt-3'} />
             </div>
           );
         })}

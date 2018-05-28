@@ -14,6 +14,27 @@
   height: 3px;
   background: transparent;
 }
+.Tabs .Tabs_Tab .TabLine0 {
+  width: 111px;
+  margin: 0 auto;
+}
+.Tabs .Tabs_Tab .TabLine1 {
+  width: 164px;
+  margin: 0 auto;
+}
+.Tabs .Tabs_Tab .TabLine2 {
+  width: 156px;
+  margin: 0 auto;
+}
+.Tabs .Tabs_Tab .TabLine3 {
+  width: 170px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 434px) {
+  .Tabs .Tabs_Tab {
+    width: 80%;
+  }
+}
 .Tabs .Tabs_Tab:hover,
 .Tabs .Tabs_Tab-active {
   background: transparent;

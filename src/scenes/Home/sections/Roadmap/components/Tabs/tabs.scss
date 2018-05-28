@@ -12,6 +12,27 @@
       height:3px;
       background:transparent;
     }
+    .TabLine0{
+      width:111px;
+      margin:0 auto;
+    }
+    .TabLine1{
+      width:164px;
+      margin:0 auto;
+    }
+    .TabLine2{
+      width:156px;
+      margin:0 auto;
+    }
+    .TabLine3{
+      width:170px;
+      margin:0 auto;
+    }
+  }
+  @media only screen and (max-width: 434px) {
+    .Tabs_Tab{
+      width:80%;
+    }
   }
   .Tabs_Tab:hover,.Tabs_Tab-active{
     background:transparent;

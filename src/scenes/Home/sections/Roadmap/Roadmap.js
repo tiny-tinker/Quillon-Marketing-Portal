@@ -11,6 +11,12 @@ export default class Roadmap extends Component {
     this.state = { active: 'Tab1' };
   }
   render() {
+    const TabTitle = [
+      'GOVERNANCE  ',
+      'QUILLON PLATFORM',
+      'CORE BLOCKCHAIN',
+      'FINANCIAL SERVICES'
+    ];
     const TabContent1 = [
       'Quillon Foundation Incorporation',
       'Quillon Team Expansion',
@@ -108,10 +114,10 @@ export default class Roadmap extends Component {
               active={this.state.active}
               onChange={active => this.setState({ active })}
             >
-              <div key="Tab1"> GOVERNANCE </div>
-              <div key="Tab2"> QUILLON PLATFORM </div>
-              <div key="Tab3"> CORE BLOCKCHAIN </div>
-              <div key="Tab4"> FINANCIAL SERVICES </div>
+              <div key="Tab1"> {TabTitle[0]} </div>
+              <div key="Tab2"> {TabTitle[1]} </div>
+              <div key="Tab3"> {TabTitle[2]} </div>
+              <div key="Tab4"> {TabTitle[3]} </div>
             </Tabs>
             <div className="tabContent mt-5 pb-5">
               {content[this.state.active].map((content, index) => (

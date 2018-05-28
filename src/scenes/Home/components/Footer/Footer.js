@@ -20,7 +20,7 @@ export default class Footer extends Component {
             <div className="col-md-4 col-sm-12 mt-4">
               <div className="menu-title mt-2 mb-3"> website menu </div>
               <div className="row menu-content">
-                <div className="col-5">
+                <div className="col-6 col-md-5">
                   <div className="menu-item">
                     <a href="#introduction-section">Introduction</a>
                   </div>
@@ -37,7 +37,7 @@ export default class Footer extends Component {
                     <a href="#webapp-section">Web App</a>
                   </div>
                 </div>
-                <div className="col-5">
+                <div className="col-6 col-md-5">
                   <div className="menu-item">
                     <a href="#roadmap-section">Roadmap</a>
                   </div>
@@ -56,7 +56,7 @@ export default class Footer extends Component {
             <div className="col-md-4 col-sm-12 mt-4">
               <div className="social-title mt-2 mb-3"> follow us </div>
               <div className="row">
-                <div className="col-2">
+                <div className="col-3 col-md-2">
                   <div>
                     <a
                       href="https://www.facebook.com/quilloncurrency/"
@@ -66,7 +66,7 @@ export default class Footer extends Component {
                     </a>
                   </div>
                 </div>
-                <div className="col-2">
+                <div className="col-3 col-md-2">
                   <a
                     href="https://www.instagram.com/QuillonCurrency"
                     target="blank"
@@ -74,12 +74,12 @@ export default class Footer extends Component {
                     <FaInstagram color="white" size="35" />
                   </a>
                 </div>
-                <div className="col-2">
+                <div className="col-3 col-md-2">
                   <a href="https://twitter.com/QuillonCurrency" target="blank">
                     <FaTwitter color="white" size="35" />
                   </a>
                 </div>
-                <div className="col-2">
+                <div className="col-3 col-md-2">
                   <a href="https://github.com/QuillonCurrency" target="blank">
                     <FaGithub color="white" size="35" />
                   </a>
@@ -87,7 +87,7 @@ export default class Footer extends Component {
               </div>
               <br />
               <div className="row">
-                <div className="col-2">
+                <div className="col-3 col-md-2">
                   <a
                     href="https://www.linkedin.com/company/quillonfoundation/"
                     target="blank"
@@ -95,12 +95,12 @@ export default class Footer extends Component {
                     <FaLinkedin color="white" size="35" />
                   </a>
                 </div>
-                <div className="col-2">
+                <div className="col-3 col-md-2">
                   <a href="https://quilloncurrency.slack.com" target="blank">
                     <FaSlack color="white" size="35" />
                   </a>
                 </div>
-                <div className="col-2">
+                <div className="col-3 col-md-2">
                   <a href="https://medium.com/quillon" target="blank">
                     <FaMedium color="white" size="35" />
                   </a>
@@ -109,7 +109,7 @@ export default class Footer extends Component {
             </div>
             <div className="col-md-4 col-sm-12 mt-4">
               <div className="newsletter-title mt-2 mb-3"> newsletter </div>
-              <div className="newsletter-description">
+              <div className="newsletter-description mb-3">
                 Get Exclusive Content <br /> offers and more
               </div>
               <div id="newsletterSignUpDiv" />

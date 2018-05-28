@@ -36,6 +36,12 @@
   min-height: 1px;
 }
 
+@media only screen and (max-width: 2000px) {
+  .stay-section .container .leftCloud {
+    margin-left: -45%;
+  }
+}
+
 @media only screen and (max-width: 1680px) {
   .stay-section .container .leftCloud {
     margin-left: -26%;

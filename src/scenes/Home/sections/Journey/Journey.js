@@ -19,8 +19,7 @@ export default class Journey extends Component {
             labore et dolore magnam aliquam quaerat voluptatem
           </div>
           <button type="button" className="button mt-5 text-white">
-            {' '}
-            head to our app{' '}
+            coming soon
           </button>
         </div>
         <div className="w-100 position-relative">

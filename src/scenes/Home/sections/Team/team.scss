@@ -74,11 +74,10 @@
           background: linear-gradient(to left, #243eff, #196cff, #00d2ff);
           border-radius: 40px;
           padding-top: 22px;
-          padding-left: 14px;
           position: absolute;
-          left: -85px;
+          left: -57px;
           top: 230px;
-          opacity:0.6;
+          opacity:0.8;
           z-index:100;
         }
         .arrowRight{
@@ -87,19 +86,18 @@
           background: linear-gradient(to right, #243eff, #196cff, #00d2ff);
           border-radius: 40px;
           padding-top: 22px;
-          padding-right: 14px;
           position: absolute;
-          right: -85px;
+          right: -65px;
           top: 230px;
-          opacity:0.6;
+          opacity:0.8;
           z-index:100;
         }
         @media only screen and (max-width: 767px) {
           .arrowLeft{
-            left: -33px;
+            left: -47px;
           }
           .arrowRight{
-            right:-55px;
+            right:-54px;
           }
         }
       }
