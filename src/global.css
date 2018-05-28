@@ -171,7 +171,17 @@ a:focus {
   height: 40px;
   border-radius: 20px;
   outline: none;
-  transform: translateY(10px);
+  color: transparent;
+  border-width: 0;
+  opacity: 0.8;
+}
+
+.hs-button:active {
+  opacity: 1;
+}
+
+.hs-button:hover {
+  opacity: 1;
 }
 
 @media only screen and (max-width: 430px) {

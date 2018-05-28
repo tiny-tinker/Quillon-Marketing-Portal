@@ -28,221 +28,23 @@
   height: 80%;
 }
 
-.stay-section .container .leftCloud {
+.stay-section .leftCloud {
   z-index: -1;
-  width: 45%;
-  margin-left: -37%;
+  width: 30%;
+  margin-right: 70%;
   display: block;
   min-height: 1px;
 }
 
-@media only screen and (max-width: 2000px) {
-  .stay-section .container .leftCloud {
-    margin-left: -45%;
-  }
-}
-
-@media only screen and (max-width: 1680px) {
-  .stay-section .container .leftCloud {
-    margin-left: -26%;
-  }
-}
-
-@media only screen and (max-width: 1640px) {
-  .stay-section .container .leftCloud {
-    margin-left: -24%;
-  }
-}
-
-@media only screen and (max-width: 1600px) {
-  .stay-section .container .leftCloud {
-    margin-left: -22%;
-  }
-}
-
-@media only screen and (max-width: 1560px) {
-  .stay-section .container .leftCloud {
-    margin-left: -20%;
-  }
-}
-
-@media only screen and (max-width: 1500px) {
-  .stay-section .container .leftCloud {
-    margin-left: -17%;
-  }
-}
-
-@media only screen and (max-width: 1450px) {
-  .stay-section .container .leftCloud {
-    margin-left: -14%;
-  }
-}
-
-@media only screen and (max-width: 1400px) {
-  .stay-section .container .leftCloud {
-    margin-left: -13%;
-  }
-}
-
-@media only screen and (max-width: 1350px) {
-  .stay-section .container .leftCloud {
-    margin-left: -11%;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-  .stay-section .container .leftCloud {
-    margin-left: -9%;
-  }
-}
-
-@media only screen and (max-width: 1250px) {
-  .stay-section .container .leftCloud {
-    margin-left: -7%;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .stay-section .container .leftCloud {
-    margin-left: -5%;
-  }
-}
-
-@media only screen and (max-width: 1199px) {
-  .stay-section .container .leftCloud {
-    margin-left: -15%;
-  }
-}
-
-@media only screen and (max-width: 1150px) {
-  .stay-section .container .leftCloud {
-    margin-left: -12%;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
-  .stay-section .container .leftCloud {
-    margin-left: -9%;
-  }
-}
-
-@media only screen and (max-width: 1050px) {
-  .stay-section .container .leftCloud {
-    margin-left: -7%;
-  }
-}
-
-@media only screen and (max-width: 1020px) {
-  .stay-section .container .leftCloud {
-    margin-left: -5%;
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .stay-section .container .leftCloud {
-    margin-left: -22%;
-  }
-}
-
-@media only screen and (max-width: 950px) {
-  .stay-section .container .leftCloud {
-    margin-left: -18%;
-  }
-}
-
-@media only screen and (max-width: 920px) {
-  .stay-section .container .leftCloud {
-    margin-left: -16%;
-  }
-}
-
-@media only screen and (max-width: 880px) {
-  .stay-section .container .leftCloud {
-    margin-left: -13%;
-  }
-}
-
-@media only screen and (max-width: 840px) {
-  .stay-section .container .leftCloud {
-    margin-left: -10%;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .stay-section .container .leftCloud {
-    margin-left: -7%;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .stay-section .container .leftCloud {
-    margin-left: -25%;
-  }
-}
-
-@media only screen and (max-width: 730px) {
-  .stay-section .container .leftCloud {
-    margin-left: -20%;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  .stay-section .container .leftCloud {
-    margin-left: -17%;
-  }
-}
-
-@media only screen and (max-width: 675px) {
-  .stay-section .container .leftCloud {
-    margin-left: -15%;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  .stay-section .container .leftCloud {
-    margin-left: -13%;
-  }
-}
-
-@media only screen and (max-width: 620px) {
-  .stay-section .container .leftCloud {
-    margin-left: -10%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .stay-section .container .leftCloud {
-    margin-left: -8%;
-  }
-}
-
-@media only screen and (max-width: 580px) {
-  .stay-section .container .leftCloud {
-    margin-left: -6%;
-  }
-}
-
-@media only screen and (max-width: 560px) {
-  .stay-section .container .leftCloud {
-    margin-left: -4%;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  .stay-section .container .leftCloud {
-    margin-left: -5%;
-  }
-}
-
-.stay-section .container .cloud-parallax-img {
-  margin-top: -150px;
+.stay-section .cloud-parallax-img {
+  margin-top: -500px;
   overflow: visible;
   width: 100% !important;
   height: auto !important;
-  left: 0;
+  right: 0;
 }
 
-.stay-section .container .cloud-parallax {
+.stay-section .cloud-parallax {
   overflow: visible !important;
   z-index: -100;
 }

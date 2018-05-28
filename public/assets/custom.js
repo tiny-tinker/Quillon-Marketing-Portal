@@ -19,7 +19,6 @@ $(document).ready(function() {
 
     setTimeout(function(){
         $('#email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37').attr('placeholder','Type your email here');
-        $('.actions input[type="submit"]').attr('value', '');
     } ,2000);
 
     //------------ team section -----------------//

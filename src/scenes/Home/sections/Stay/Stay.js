@@ -18,18 +18,17 @@ export default class Journey extends Component {
             quaerat voluptatem
           </div>
           <img className="rightEllipse" src={rightEffect} />
-          <div className="w-100 position-relative">
-            <div className="leftCloud">
-              <Parallax
-                strength={200}
-                bgImage={leftCloud}
-                bgClassName="cloud-parallax-img"
-                className="cloud-parallax"
-              />
-            </div>
-          </div>
-          {/*<img className="leftCloud" src={leftCloud} />*/}
           <img className="stayCenter mt-5 mb-5" src={stayCenter} />
+        </div>
+        <div className="w-100 position-relative">
+          <div className="leftCloud">
+            <Parallax
+              strength={200}
+              bgImage={leftCloud}
+              bgClassName="cloud-parallax-img"
+              className="cloud-parallax"
+            />
+          </div>
         </div>
       </div>
     );
