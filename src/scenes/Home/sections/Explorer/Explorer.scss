@@ -102,5 +102,9 @@
   .compareDescription {
     font-family: "Roboto Regular",sans-serif;
     font-size: 0.95em;
+    margin: 25px 0;
+    @media only screen and (max-width: 767px) {
+      text-align: center !important;
+    }
   }
 }
