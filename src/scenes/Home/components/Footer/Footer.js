@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Element } from 'react-scroll';
 import FaFacebook from 'react-icons/lib/fa/facebook';
 import FaInstagram from 'react-icons/lib/fa/instagram';
 import FaTwitter from 'react-icons/lib/fa/twitter';
@@ -14,7 +14,7 @@ import './footer.css';
 export default class Footer extends Component {
   render() {
     return (
-      <div className="footer-section">
+      <Element name="contact-section" className="footer-section">
         <div className="container">
           <div className="row">
             <div className="col-md-4 col-sm-12 mt-4">
@@ -123,7 +123,7 @@ export default class Footer extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </Element>
     );
   }
 }
