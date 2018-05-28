@@ -48,6 +48,11 @@
   font-family: 'Roboto Regular', sans-serif;
   margin-bottom: 160px;
 }
+@media only screen and (max-width: 767px) {
+  .webApp-section .sectionDescription {
+    width: unset;
+  }
+}
 .webApp-section p {
   margin-bottom: 0;
 }

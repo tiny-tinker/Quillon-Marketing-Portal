@@ -49,6 +49,9 @@
     text-align: center;
     font-family: "Roboto Regular", sans-serif;
     margin-bottom: 160px;
+    @media only screen and (max-width: 767px) {
+      width: unset;
+    }
   }
 
   p{
