@@ -17,10 +17,6 @@ $(document).ready(function() {
     const formId = document.getElementsByClassName('hbspt-form')[0].id;
     $(`#`.concat(formId)).detach().appendTo('#newsletterSignUpDiv');
 
-    setTimeout(function(){
-        $('#email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37').attr('placeholder','Type your email here');
-    } ,2000);
-
     //------------ team section -----------------//
     $('.carousel[data-type="multi"] .item').each(function() {
         var next = $(this).next();
@@ -41,4 +37,7 @@ $(document).ready(function() {
         interval: false
     });
 
+    setTimeout(function(){
+        $('#email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37').attr('placeholder','Type your email here');
+    } ,2000);
 });
