@@ -8,6 +8,11 @@
   padding-top: 180px;
   padding-bottom: 180px;
 }
+@media only screen and (max-width: 420px) {
+  .intro-section {
+    background-size: auto;
+  }
+}
 @media only screen and (max-width: 991px) {
   .intro-section {
     padding-top: 120px;
@@ -43,6 +48,11 @@
   color: #fff;
   text-align: center;
   margin-bottom: 40px;
+}
+@media only screen and (max-width: 420px) {
+  .intro-section .subtitle {
+    margin-bottom: 0;
+  }
 }
 @media only screen and (min-width: 991px) {
   .intro-section .subtitle {
