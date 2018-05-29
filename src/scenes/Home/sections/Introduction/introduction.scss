@@ -7,7 +7,9 @@
   text-align: center;
   padding-top: 180px;
   padding-bottom: 180px;
-
+  @media only screen and (max-width: 420px) {
+    background-size: auto;
+  }
   @media only screen and (max-width: 991px) {
     padding-top: 120px;
   }
@@ -43,6 +45,9 @@
     text-align: center;
     margin-bottom: 40px;
 
+    @media only screen and (max-width: 420px) {
+      margin-bottom: 0;
+    }
     @media only screen and (min-width: 991px) {
       padding-left: 150px;
       padding-right: 150px;
