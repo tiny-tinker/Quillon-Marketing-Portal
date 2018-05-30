@@ -98,3 +98,10 @@
     right: -54px;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .team-section {
+    background: url('./images/team_bg_small.png') no-repeat;
+    background-size: 100% 100%;
+  }
+}

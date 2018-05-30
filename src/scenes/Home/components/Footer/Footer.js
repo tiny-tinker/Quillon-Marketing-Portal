@@ -48,7 +48,7 @@ export default class Footer extends Component {
                     <a href="#team-section">Team</a>
                   </div>
                   <div className="menu-item">
-                    <a href="#">Connect</a>
+                    <a href="#connect-section">Connect</a>
                   </div>
                 </div>
               </div>
@@ -61,8 +61,9 @@ export default class Footer extends Component {
                     <a
                       href="https://www.facebook.com/quilloncurrency/"
                       target="blank"
+                      className="text-white"
                     >
-                      <FaFacebook color="white" size="35" />
+                      <FaFacebook className="social-icon" size="35" />
                     </a>
                   </div>
                 </div>
@@ -70,18 +71,27 @@ export default class Footer extends Component {
                   <a
                     href="https://www.instagram.com/QuillonCurrency"
                     target="blank"
+                    className="text-white"
                   >
-                    <FaInstagram color="white" size="35" />
+                    <FaInstagram className="social-icon" size="35" />
                   </a>
                 </div>
                 <div className="col-3 col-md-2">
-                  <a href="https://twitter.com/QuillonCurrency" target="blank">
-                    <FaTwitter color="white" size="35" />
+                  <a
+                    href="https://twitter.com/QuillonCurrency"
+                    target="blank"
+                    className="text-white"
+                  >
+                    <FaTwitter className="social-icon" size="35" />
                   </a>
                 </div>
                 <div className="col-3 col-md-2">
-                  <a href="https://github.com/QuillonCurrency" target="blank">
-                    <FaGithub color="white" size="35" />
+                  <a
+                    href="https://github.com/QuillonCurrency"
+                    target="blank"
+                    className="text-white"
+                  >
+                    <FaGithub className="social-icon" size="35" />
                   </a>
                 </div>
               </div>
@@ -91,18 +101,27 @@ export default class Footer extends Component {
                   <a
                     href="https://www.linkedin.com/company/quillonfoundation/"
                     target="blank"
+                    className="text-white"
                   >
-                    <FaLinkedin color="white" size="35" />
+                    <FaLinkedin className="social-icon" size="35" />
                   </a>
                 </div>
                 <div className="col-3 col-md-2">
-                  <a href="https://quilloncurrency.slack.com" target="blank">
-                    <FaSlack color="white" size="35" />
+                  <a
+                    href="https://quilloncurrency.slack.com"
+                    target="blank"
+                    className="text-white"
+                  >
+                    <FaSlack size="35" className="social-icon" />
                   </a>
                 </div>
                 <div className="col-3 col-md-2">
-                  <a href="https://medium.com/quillon" target="blank">
-                    <FaMedium color="white" size="35" />
+                  <a
+                    href="https://medium.com/quillon"
+                    target="blank"
+                    className="text-white"
+                  >
+                    <FaMedium size="35" className="social-icon" />
                   </a>
                 </div>
               </div>
