@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Element } from 'react-scroll';
+import { Link } from 'react-scroll';
 import FaFacebook from 'react-icons/lib/fa/facebook';
 import FaInstagram from 'react-icons/lib/fa/instagram';
 import FaTwitter from 'react-icons/lib/fa/twitter';
@@ -22,33 +23,105 @@ export default class Footer extends Component {
               <div className="row menu-content">
                 <div className="col-6 col-md-5">
                   <div className="menu-item">
-                    <a href="#introduction-section">Introduction</a>
+                    <Link
+                      href="#"
+                      to="home-section"
+                      spy={true}
+                      smooth={true}
+                      duration={500}
+                    >
+                      Introduction
+                    </Link>
                   </div>
                   <div className="menu-item">
-                    <a href="#benefits-section">Benefits</a>
+                    <Link
+                      href="#"
+                      to="benefit-section"
+                      spy={true}
+                      smooth={true}
+                      duration={500}
+                    >
+                      Benefits
+                    </Link>
                   </div>
                   <div className="menu-item">
-                    <a href="#explore-section">Explore</a>
+                    <Link
+                      href="#"
+                      to="explore-section"
+                      spy={true}
+                      smooth={true}
+                      duration={500}
+                    >
+                      Explore
+                    </Link>
                   </div>
                   <div className="menu-item">
-                    <a href="#network-section">Network</a>
+                    <Link
+                      href="#"
+                      to="network-section"
+                      spy={true}
+                      smooth={true}
+                      duration={500}
+                    >
+                      Network
+                    </Link>
                   </div>
                   <div className="menu-item">
-                    <a href="#webapp-section">Web App</a>
+                    <Link
+                      href="#"
+                      to="webApp-section"
+                      spy={true}
+                      smooth={true}
+                      duration={500}
+                    >
+                      Web App
+                    </Link>
                   </div>
                 </div>
                 <div className="col-6 col-md-5">
                   <div className="menu-item">
-                    <a href="#roadmap-section">Roadmap</a>
+                    <Link
+                      href="#"
+                      to="roadmap-section"
+                      spy={true}
+                      smooth={true}
+                      duration={500}
+                    >
+                      Roadmap
+                    </Link>
                   </div>
                   <div className="menu-item">
-                    <a href="#whitepaper-section">Whitepaper</a>
+                    <Link
+                      href="#"
+                      to="whitepaper-section"
+                      spy={true}
+                      smooth={true}
+                      duration={500}
+                    >
+                      Whitepaper
+                    </Link>
                   </div>
                   <div className="menu-item">
-                    <a href="#team-section">Team</a>
+                    <Link
+                      href="#"
+                      to="team-section"
+                      spy={true}
+                      smooth={true}
+                      duration={500}
+                    >
+                      Team
+                    </Link>
                   </div>
                   <div className="menu-item">
-                    <a href="#connect-section">Connect</a>
+                    <Link
+                      href="#"
+                      to="contact-section"
+                      spy={true}
+                      smooth={true}
+                      duration={500}
+                    >
+                      Contact
+                    </Link>
                   </div>
                 </div>
               </div>

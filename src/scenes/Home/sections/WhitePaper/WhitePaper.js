@@ -5,13 +5,13 @@ import whitepaper_bottom from './images/whitepaper_bottom.png';
 import leftEffect from './images/whitepaperLeftEffect.png';
 import centerImage1 from './images/whitepaperCenter1.png';
 import centerImage2 from './images/whitepaperCenter2.png';
-
+import { Element } from 'react-scroll';
 import './whitepaper.css';
 
 export default class WhitePaper extends Component {
   render() {
     return (
-      <div className="whitepaper-section">
+      <Element id="whitepapaer-section" className="whitepaper-section">
         <img src={whitepaper_top} className="top_bg" />
         <div className="container text-center">
           <img src={leftEffect} className="leftEffect" />
@@ -36,7 +36,7 @@ export default class WhitePaper extends Component {
           </button>
         </div>
         <img src={whitepaper_bottom} className="bottom_bg" />
-      </div>
+      </Element>
     );
   }
 }
