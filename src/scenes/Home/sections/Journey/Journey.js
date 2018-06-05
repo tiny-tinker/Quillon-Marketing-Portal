@@ -12,15 +12,8 @@ export default class Journey extends Component {
           <div className="title mt-3 mb-3">
             your cryptocurrency
             <br />
-            journey, begins here
+            journey, begins in 2018
           </div>
-          <div className="description mb-3">
-            Lorem ipsum dolor sit am numquam eius modi tempora incidunt ut
-            labore et dolore magnam aliquam quaerat voluptatem
-          </div>
-          <button type="button" className="button mt-5 text-white">
-            coming soon
-          </button>
         </div>
         <div className="w-100 position-relative">
           <div className="journeyRightCloud">

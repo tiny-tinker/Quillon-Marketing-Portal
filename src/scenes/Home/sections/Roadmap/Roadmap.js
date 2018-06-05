@@ -3,7 +3,6 @@ import { Element } from 'react-scroll';
 import Tabs from './components/Tabs/Tabs';
 import Item from './components/Item/Item';
 import './roadmap.css';
-import leftEffect from './images/roadmapLeftEffect.png';
 
 export default class Roadmap extends Component {
   constructor(props) {
@@ -108,7 +107,6 @@ export default class Roadmap extends Component {
             Over the coming weeks and months we have a lot in store to bring you
             the most successful currency possible
           </div>
-          <img className="leftEffect" src={leftEffect} />
           <div className="roadmapDetail">
             <Tabs
               active={this.state.active}

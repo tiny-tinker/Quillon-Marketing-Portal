@@ -3,7 +3,6 @@ import { Parallax, Background } from 'react-parallax';
 import './stay.css';
 import stayCenter from './images/stayCenter.png';
 import leftCloud from './images/stayLeftCloud.png';
-import rightEffect from './images/stayRightEffect.png';
 
 export default class Journey extends Component {
   render() {
@@ -17,7 +16,6 @@ export default class Journey extends Component {
             eius modi tempora incidunt ut labore et dolore magnam aliquam
             quaerat voluptatem
           </div>
-          <img className="rightEllipse" src={rightEffect} />
           <img className="stayCenter mt-5 mb-5" src={stayCenter} />
         </div>
         <div className="w-100 position-relative">
