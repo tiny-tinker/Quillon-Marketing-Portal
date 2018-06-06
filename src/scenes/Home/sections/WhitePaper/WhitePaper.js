@@ -23,12 +23,7 @@ export default class WhitePaper extends Component {
             which we are happy to share in more detail through our whitepaper.
             The result of hours of work from our whole team the Quillon
             Whitepaper aims to give the interested investor, user and developer
-            a deeper look at our intent. It covers the importance of a great
-            user experience, the necessity of privacy in cryptocurrency as well
-            as smart contracts and its applications in financial- and
-            user-focused services on the Quillon Blockchain. It also gives you a
-            deep insight into the technical specifications, supply schedule and
-            more
+            a deeper look at our intent.
           </div>
           <button className="downloadButton mt-5 mb-5" type="button">
             {' '}

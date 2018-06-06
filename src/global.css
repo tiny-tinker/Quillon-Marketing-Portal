@@ -167,9 +167,9 @@ a:focus {
 .hs-button {
   margin-top: 5px;
   background-image: url('assets/images/submit_bg.png');
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
   outline: none;
   color: transparent;
   border-width: 0;

@@ -19,34 +19,34 @@ import './team.css';
 export default class Team extends Component {
   render() {
     const teamName = [
-      'Henning Lübberding',
-      'Mark Reynolds',
-      'Zachary Elfman',
+      'HENNING LÜBBERDING',
+      'MARK REYNOLDS',
+      'ZACHARY ELFMAN',
       'Xinzhe Li',
       'Qiang Dong',
-      'John Magdy',
-      'Damian Thiele',
-      'Chloé Bocquillon'
+      'JOHN MAGDY',
+      'DAMIAN THIELE',
+      'CHLOÉ BOCQUILLON'
     ];
     const teamRole = [
-      'Founder',
-      'Head of Development',
-      'Head of Monetary Policy',
+      'MANAGING DIRECTOR',
+      'HEAD OF DEVELOPMENT',
+      'HEAD OF MONETARY POLICY',
       'Developer',
-      'Senior Developer',
+      'Developer',
       'Designer',
       'Legal Advisor',
-      'Marketing'
+      'MARKETEER'
     ];
     const teamDescription = [
-      'Experienced leading large scale projects for premier user experience focused B2C unicorn at Dropbox and infrastructure IT giant Micro Focus.',
-      'PhD in Computer Science from Boston University and MS in Mathematics from MIT. R&D Wizard. 20+ years of experience in cryptography and IT security. Cypherpunk.',
-      'Experienced Macroeconomist with a MS from the London School of Economics. Spent eight years working at various hedgefunds in London.',
-      'Full stack developer in designing and developing web application development with various languages and frameworks. Experienced in Decentralized Exchange and Blockchain technology.',
-      'Majored in Computer Networking from Liaoning University of technology. 8 years of experience in web development.',
+      'Cloud services expert. Successful project lead with a history of delivering results for Google and Dropbox. Blockchain expert with a focus on its application as currency.',
+      'Experienced software lead. PhD in Computer Science from Boston University and MSc in Mathematics from MIT. 20+ years of experience in cryptography and IT security.',
+      'London based hedge fund analyst turned winemaker. MSc Economic History from the London School of Economics and BA Philosophy & Economics from USC.',
+      'Full stack developer experienced in designing and developing web applications with various languages and frameworks. Focusing on decentralized exchange and blockchain technology.',
+      'Majored in Computer Networking from Liaoning University of Technology. Eight years of experience in web development.',
       'Freelance Designer with a focus on branding and corporate messaging. Educated in Computer Engineering and passionate about blockchain technology.',
       'Blockchain and Cryptocurrency enthusiast. Deep professional expertise in privacy law. On top of cryptocurrency regulation. Law Degree from Goethe-University in Frankfurt.',
-      'Marketing specialist having worked for Hubspot and previously at Micro Focus. Experienced in implementing and assessing marketing automation strategies.'
+      'Marketing specialist with a focus on inbound marketing strategies. Experienced in implementing marketing automation strategies. Working at Hubspot and previously at Micro Focus.'
     ];
     const teamPhoto = [
       avatar1,

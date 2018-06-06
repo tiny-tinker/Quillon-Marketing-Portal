@@ -7,23 +7,25 @@ export default class Tabs extends Component {
   render() {
     return (
       <div className="Tabs">
-        {React.Children.map(this.props.children, (child, i) => {
-          let className = 'Tabs_Tab';
-          if (child.key === this.props.active) {
-            className = 'Tabs_Tab Tabs_Tab-active';
-          }
-          return (
-            <div
-              className={className}
-              onClick={() => {
-                this.props.onChange(child.key);
-              }}
-            >
-              {child}
-              <div className={'TabLine TabLine' + i + ' mt-3'} />
-            </div>
-          );
-        })}
+        <div className="row">
+          {React.Children.map(this.props.children, (child, i) => {
+            let className = 'Tabs_Tab tab-col-6';
+            if (child.key === this.props.active) {
+              className = 'Tabs_Tab tab-col-6 Tabs_Tab-active';
+            }
+            return (
+              <div
+                className={className}
+                onClick={() => {
+                  this.props.onChange(child.key);
+                }}
+              >
+                {child}
+                <div className={'TabLine TabLine' + i + ' mt-3'} />
+              </div>
+            );
+          })}
+        </div>
       </div>
     );
   }

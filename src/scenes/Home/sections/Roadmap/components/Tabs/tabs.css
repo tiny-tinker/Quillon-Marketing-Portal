@@ -1,7 +1,7 @@
 .Tabs {
   position: relative;
   display: inline-block;
-  margin-bottom: 3px;
+  margin: 0 auto;
 }
 .Tabs .Tabs_Tab {
   display: inline-block;
@@ -19,7 +19,7 @@
   margin: 0 auto;
 }
 .Tabs .Tabs_Tab .TabLine1 {
-  width: 164px;
+  width: 150px;
   margin: 0 auto;
 }
 .Tabs .Tabs_Tab .TabLine2 {
@@ -27,8 +27,20 @@
   margin: 0 auto;
 }
 .Tabs .Tabs_Tab .TabLine3 {
-  width: 170px;
+  width: 160px;
   margin: 0 auto;
+}
+@media only screen and (max-width: 992px) {
+  .Tabs .tab-col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .Tabs .tab-col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 @media only screen and (max-width: 434px) {
   .Tabs .Tabs_Tab {

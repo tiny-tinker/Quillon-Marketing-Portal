@@ -11,10 +11,10 @@ export default class Journey extends Component {
         <div className="container text-center text-white">
           <div className="title">stay on track</div>
           <div className="description mb-5">
-            Lorem ipsum dolor sit ameto quisquam est, qui dolorem ipsum quia
-            dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-            eius modi tempora incidunt ut labore et dolore magnam aliquam
-            quaerat voluptatem
+            Never has it been so easy to keep track of your whole portfolio
+            while earning a significant return on your investment. Hosting
+            masternodes, staking your wallet balance and directly impacting the
+            future of your favorite currency!
           </div>
           <img className="stayCenter mt-5 mb-5" src={stayCenter} />
         </div>
