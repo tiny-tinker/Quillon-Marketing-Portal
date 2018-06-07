@@ -15,7 +15,7 @@ const typistCursor = {
 };
 
 const sectionDescription =
-  'Quillon. A new stable cryptocurrency with an algorithm based central bank supporting a user friendly business to consumer software as a service platform. Featuring state-of-the-art privacy, self-governance, masternodes and a superior user experience';
+  'Quillon. A new cryptocurrency focusing on providing a superior user experience, including a focus on reducing volatility through financial services while retaining the independent spirit cryptocurrencies were created with. Featuring state-of-the-art privacy, self-governance and masternodes.';
 class Introduction extends React.Component {
   //
   render() {
@@ -27,9 +27,9 @@ class Introduction extends React.Component {
           </a>
           <div className="title">
             <Typist cursor={typistCursor}>
-              Our Stable Foundation
+              Our Solid Foundation
               <Typist.Backspace count={21} delay={200} />
-              YOUR STRONG INVESTMENT
+              Your Sound Currency
             </Typist>
           </div>
           <p className="subtitle">{sectionDescription}</p>

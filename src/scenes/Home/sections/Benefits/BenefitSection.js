@@ -1,5 +1,5 @@
-import React from 'react'
-import {Element} from 'react-scroll'
+import React from 'react';
+import { Element } from 'react-scroll';
 import Feature from './components/Feature/Feature';
 import privacyConscious from './images/privacy_conscious.png';
 import userFocused from './images/user_focused.png';
@@ -12,33 +12,45 @@ const features = [
   {
     id: 1,
     imageUrl: privacyConscious,
-    title: 'PRIVACY CONSCIOUS',
-    description: 'Lorem ipsum dolor sit ameto quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.'
+    title: 'Protecting Privacy',
+    description:
+      'A focus on ensuring the privacy of our users is at the heart of the Foundation. Both the Quillon platform and the quillon blockchain will always prioritize the protection of the privacy of its users.'
   },
   {
     id: 2,
     imageUrl: userFocused,
-    title: 'USER FOCUSED',
-    description: 'Lorem ipsum dolor sit ameto quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.'
+    title: 'User Focused',
+    description:
+      'For a modern application to find lasting success it needs to radically focus on the needs of their users. Quillon will reduce the barriers of entry, and prioritize providing a fantastic user experience.'
   },
   {
     id: 3,
     imageUrl: monetaryStable,
-    title: 'MONETARY STABLE',
-    description: 'Lorem ipsum dolor sit ameto quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.'
+    title: 'Monetary Stable',
+    description:
+      'Cryptocurrencies need to become more than a store of value. Reducing volatility and ensuring the validity of Quillon as a unit of account as well as a means of payment will be a big step towards mainstream adoption.'
   },
   {
     id: 4,
     imageUrl: decentralizedGovernance,
-    title: 'DECENTRALIZED GOVERNANCE',
-    description: 'Lorem ipsum dolor sit ameto quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.'
-  },
+    title: 'Decentralized Governance',
+    description:
+      'Allowing quillon’s community to actively contribute to the future of the currency is key to its success. Through the use of novel governance mechanisms quillon allows both the autonomous funding and implementation of changes to the underlying blockchain.'
+  }
 ];
 
 class BenefitSection extends React.Component {
-
   renderFeatures(features) {
-    return features.map(feature => <div key={feature.id} className="col-sm-6"> <Feature imageUrl={feature.imageUrl} title={feature.title} description={feature.description} /> </div>);
+    return features.map(feature => (
+      <div key={feature.id} className="col-sm-6">
+        {' '}
+        <Feature
+          imageUrl={feature.imageUrl}
+          title={feature.title}
+          description={feature.description}
+        />{' '}
+      </div>
+    ));
   }
 
   render() {
@@ -46,13 +58,11 @@ class BenefitSection extends React.Component {
       <Element name="benefit-section" className="benefit-section">
         <div className="container">
           <div className="title">OUR BENEFITS</div>
-          <div className="row">
-            {this.renderFeatures(features)}
-          </div>
+          <div className="row">{this.renderFeatures(features)}</div>
         </div>
-        <img className="benefitBottomImage" src={benefitBottomBorder}/>
+        <img className="benefitBottomImage" src={benefitBottomBorder} />
       </Element>
-    )
+    );
   }
 }
 

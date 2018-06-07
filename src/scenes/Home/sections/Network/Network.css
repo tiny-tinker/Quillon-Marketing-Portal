@@ -48,6 +48,14 @@
   margin-bottom: 25px;
   color: #fff;
 }
+.network-section .trade-coming-soon {
+  color: white;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 41px;
+}
 .network-section .trade-subImage,
 .network-section .earn-subImage {
   margin: 47px auto 15px;

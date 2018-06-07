@@ -12,12 +12,12 @@ class WebApp extends React.Component {
         <div className="container">
           <img src={iMacPCS} className="iMacPCS" role="presentation" />
           <div className="smallTitle">INTRODUCING</div>
-          <div className="bigTitle">QUILLON WEB APP</div>
+          <div className="bigTitle">THE QUILLON PLATFORM</div>
           <p className="sectionDescription">
-            Lorem ipsum dolor sit ameto quisquam est, qui dolorem ipsum quia
-            dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-            eius modi tempora incidunt ut labore et dolore magnam aliquam
-            quaerat voluptatem
+            Offering a fantastic experience for our users is of the utmost
+            importance. We intend to do so by developing the Quilllon Platform.
+            A multi-currency web wallet, lending platform and service provider
+            for all things crypto.
           </p>
         </div>
       </Element>
