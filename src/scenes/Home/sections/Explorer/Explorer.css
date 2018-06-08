@@ -82,14 +82,14 @@
 }
 .explore-section .cloud-first {
   z-index: -1;
-  width: 25%;
-  margin-left: 25%;
+  width: 35%;
+  margin-left: 15%;
   display: block;
   min-height: 1px;
 }
 .explore-section .cloud-second {
   z-index: -1;
-  width: 25%;
+  width: 35%;
   margin-left: 50%;
   display: block;
   min-height: 1px;

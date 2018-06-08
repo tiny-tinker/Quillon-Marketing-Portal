@@ -23,7 +23,7 @@ import ellipseDecorateV from './images/ellipseDecorateV.png';
 import './Network.css';
 
 const sectionDescription =
-  'Being a new cryptocurrency, Quillon offers a low barrier for entry. Join our network today and become one of the first to take advantage of our revolutionary monetary policy. You can trade, hold and earn our currency via the links below';
+  'Being a new cryptocurrency, Quillon offers a low barrier for entry. Join our network today and become one of the first to take advantage of our revolutionary monetary policy. You can trade, hold and earn our currency using the links below.';
 class Network extends React.Component {
   render() {
     return (
@@ -35,37 +35,8 @@ class Network extends React.Component {
             <div className="col-md-4">
               <img className="trade-image" src={trade} role="presentation" />
               <div className="trade-title">TRADE</div>
-              <div className="row hover12">
-                <div className="d-block mx-auto">
-                  <figure>
-                    <img
-                      className="bottom trade-subImage"
-                      src={tradesatoshiBadge}
-                      role="presentation"
-                    />
-                    <img
-                      className="top trade-subImage"
-                      src={tradesatoshiBadgeHover}
-                      role="presentation"
-                    />
-                  </figure>
-                </div>
-              </div>
-              <div className="row hover12">
-                <div className="d-block mx-auto">
-                  <figure>
-                    <img
-                      className="bottom trade-subImage"
-                      src={cryptoPia}
-                      role="presentation"
-                    />
-                    <img
-                      className="top trade-subImage"
-                      src={cryptoPiaHover}
-                      role="presentation"
-                    />
-                  </figure>
-                </div>
+              <div className="row w-100 text-center m-0">
+                <div className="trade-coming-soon"> COMING SOON</div>
               </div>
             </div>
             <div className="col-md-4 earn-block">
