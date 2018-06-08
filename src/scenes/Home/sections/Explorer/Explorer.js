@@ -31,9 +31,9 @@ class Explorer extends React.Component {
         <div className="container">
           <div className="title">EXPLORE</div>
           <p className="section-description">
-            Explore the Quillon blockchain. Featuring masternodes, and
-            blockchain leading privacy through the Zerocoin protocol, Quillon is
-            able to lay the foundation for a bright future. A coin that’s build
+            Explore the quillon blockchain. Featuring masternodes and
+            blockchain-leading privacy through the Zerocoin protocol, quillon is
+            able to lay the foundation for a bright future. A coin that is built
             to last and protect your privacy.
           </p>
           <div className="row">
@@ -82,7 +82,7 @@ class Explorer extends React.Component {
                 <div className="compareStats">COMPARE LIVE STATS</div>
                 <p className="compareDescription">
                   Explore the state of the quillon network with statistics taken
-                  directly from our block explorer. All the information you
+                  directly from the block explorer. All the information you
                   need, directly at your fingertips.
                 </p>
                 <BorderDecoratedButton label="BLOCKEXPLORER" width="180px" />

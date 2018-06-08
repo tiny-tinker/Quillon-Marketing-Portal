@@ -14,10 +14,10 @@ class WebApp extends React.Component {
           <div className="smallTitle">INTRODUCING</div>
           <div className="bigTitle">THE QUILLON PLATFORM</div>
           <p className="sectionDescription">
-            Offering a fantastic experience for our users is of the utmost
-            importance. We intend to do so by developing the Quilllon Platform.
-            A multi-currency web wallet, lending platform and service provider
-            for all things crypto.
+            Offering a simple and gratifying experience for users is of the
+            utmost importance. We intend to do so by developing the Quilllon
+            Platform. A multi-currency web wallet, lending platform and service
+            provider for all things crypto.
           </p>
         </div>
       </Element>

@@ -23,7 +23,7 @@ import ellipseDecorateV from './images/ellipseDecorateV.png';
 import './Network.css';
 
 const sectionDescription =
-  'Being a new cryptocurrency, Quillon offers a low barrier for entry. Join our network today and become one of the first to take advantage of our revolutionary monetary policy. You can trade, hold and earn our currency using the links below.';
+  'As a new cryptocurrency, quillon has a minimal barrier to entry. Join our network today and become one of the first to take advantage of our revolutionary monetary policy. You can trade, hold and earn our currency using the links below.';
 class Network extends React.Component {
   render() {
     return (

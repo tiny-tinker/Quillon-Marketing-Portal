@@ -15,7 +15,7 @@ const typistCursor = {
 };
 
 const sectionDescription =
-  'Quillon. A new cryptocurrency focusing on providing a superior user experience, including a focus on reducing volatility through financial services while retaining the independent spirit cryptocurrencies were created with. Featuring state-of-the-art privacy, self-governance and masternodes.';
+  'Quillon. A new cryptocurrency offering a superior user experience, with a focus on reducing volatility through an innovative monetary policy and integrated financial services while retaining the independent spirit that drove the origination of cryptocurrencies. Featuring state-of-the-art privacy, self-governance, and masternodes.';
 class Introduction extends React.Component {
   //
   render() {
