@@ -19,11 +19,11 @@ export default class WhitePaper extends Component {
           <img src={centerImage2} className="centerImage2" />
           <div className="title mt-5 mb-3"> WHITEPAPER </div>
           <div className="description mt-3 mb-5">
-            Our roadmap is the result of extensive research and development
-            which we are happy to share in more detail through our whitepaper.
-            The result of hours of work from our whole team the Quillon
-            Whitepaper aims to give the interested investor, user and developer
-            a deeper look at our intent.
+            The roadmap is the result of extensive research and development
+            which we are happy to share in more detail through the whitepaper.
+            The result of hours of work from our whole team, the Quillon
+            whitepaper aims to give the interested investor, user and developer
+            a deeper look.
           </div>
           <button className="downloadButton mt-5 mb-5" type="button">
             {' '}

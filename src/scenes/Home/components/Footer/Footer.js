@@ -202,7 +202,7 @@ export default class Footer extends Component {
             <div className="col-md-4 col-sm-12 mt-4">
               <div className="newsletter-title mt-2 mb-3"> newsletter </div>
               <div className="newsletter-description mb-3">
-                Get Exclusive Content <br /> offers and more
+                Get Exclusive Content <br /> and more
               </div>
               <div id="newsletterSignUpDiv" />
             </div>

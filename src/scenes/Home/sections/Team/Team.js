@@ -41,11 +41,11 @@ export default class Team extends Component {
     const teamDescription = [
       'Cloud services expert. Successful project lead with a history of delivering results for Google and Dropbox. Blockchain expert with a focus on its application as currency.',
       'Experienced software lead. PhD in Computer Science from Boston University and MSc in Mathematics from MIT. 20+ years of experience in cryptography and IT security.',
-      'London based hedge fund analyst turned winemaker. MSc Economic History from the London School of Economics and BA Philosophy & Economics from USC.',
+      'London-based hedge fund analyst turned winemaker. MSc Economic History from the London School of Economics and BA Philosophy & Economics from USC.',
       'Full stack developer experienced in designing and developing web applications with various languages and frameworks. Focusing on decentralized exchange and blockchain technology.',
       'Majored in Computer Networking from Liaoning University of Technology. Eight years of experience in web development.',
       'Freelance Designer with a focus on branding and corporate messaging. Educated in Computer Engineering and passionate about blockchain technology.',
-      'Blockchain and Cryptocurrency enthusiast. Deep professional expertise in privacy law. On top of cryptocurrency regulation. Law Degree from Goethe-University in Frankfurt.',
+      'Blockchain and Cryptocurrency enthusiast. Deep professional expertise in privacy law, and very much on top of cryptocurrency regulation. Law Degree from Goethe-University in Frankfurt.',
       'Marketing specialist with a focus on inbound marketing strategies. Experienced in implementing marketing automation strategies. Working at Hubspot and previously at Micro Focus.'
     ];
     const teamPhoto = [
@@ -73,10 +73,9 @@ export default class Team extends Component {
         <div className="container text-center text-white">
           <div className="title"> TEAM </div>
           <div className="teamDescription">
-            Nothing beats a strong team which allows all members to contribute
-            to the best of their ability. You can learn more about each member
-            here. Feel free to get in touch if you are interested in
-            contributing yourself
+            Nothing beats a strong team in which all members contribute to the
+            best of their ability. Learn more about each member here. Feel free
+            to get in touch if you are interested in contributing.
           </div>
         </div>
         <div className="members mt-4">
