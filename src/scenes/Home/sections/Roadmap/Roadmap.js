@@ -101,7 +101,7 @@ export default class Roadmap extends Component {
             vision.
             <br />
             Over the coming weeks and months we have a lot in store to bring you
-            the most successful currency possible
+            the most successful currency possible.
           </div>
           <div className="roadmapDetail">
             <Tabs
