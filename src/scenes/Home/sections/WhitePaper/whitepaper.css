@@ -52,6 +52,19 @@
     width: 95%;
   }
 }
+.whitepaper-section .container .wp_top_icons {
+  margin-right: -10px;
+  margin-left: -10px;
+  opacity: 0.8;
+  width: 100px;
+  height: 100px;
+}
+@media only screen and (max-width: 450px) {
+  .whitepaper-section .container .wp_top_icons {
+    width: 65px;
+    height: 65px;
+  }
+}
 .whitepaper-section .container .downloadButton {
   border-style: none;
   background: linear-gradient(to right, #243eff, #196cff, #00d2ff);
