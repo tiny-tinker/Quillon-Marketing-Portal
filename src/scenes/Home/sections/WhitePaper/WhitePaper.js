@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 import whitepaper_top from './images/whitepaper_top.png';
 import whitepaper_bottom from './images/whitepaper_bottom.png';
 import leftEffect from './images/whitepaperLeftEffect.png';
-import centerImage1 from './images/whitepaperCenter1.png';
-import centerImage2 from './images/whitepaperCenter2.png';
 import wp_Bank from './images/whitepaper_Bank.png';
 import wp_Block from './images/whitepaper_Block.png';
 import wp_Privacy from './images/whitepaper_Privacy.png';
@@ -21,8 +19,6 @@ export default class WhitePaper extends Component {
         <img src={whitepaper_top} className="top_bg" />
         <div className="container text-center">
           <img src={leftEffect} className="leftEffect" />
-          {/*<img src={centerImage1} className="centerImage1" />*/}
-          {/*<img src={centerImage2} className="centerImage2" />*/}
           <img src={wp_Bank} className="wp_top_icons" />
           <img src={wp_userfocused} className="wp_top_icons" />
           <img src={wp_Proposal} className="wp_top_icons" />
