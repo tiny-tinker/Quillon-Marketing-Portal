@@ -2,6 +2,8 @@
   position: relative;
   display: inline-block;
   margin: 0 auto;
+  font-family: 'Yantramanav';
+  font-size: 18px;
 }
 .Tabs .Tabs_Tab {
   display: inline-block;

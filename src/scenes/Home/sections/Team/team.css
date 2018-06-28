@@ -22,10 +22,10 @@
   }
 }
 .team-section .container .teamDescription {
-  font-size: 18px;
+  font-size: 20px;
   width: 70%;
   margin: 0 auto;
-  font-family: 'Roboto Regular', sans-serif;
+  font-family: 'Yantramanav';
 }
 @media only screen and (max-width: 992px) {
   .team-section .container .teamDescription {

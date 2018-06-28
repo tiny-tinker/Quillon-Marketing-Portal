@@ -14,10 +14,12 @@
   color: #010248;
   font-size: 1.8em;
   text-align: center;
-  font-family: 'Roboto Medium', sans-serif;
+  font-family: 'Yantramanav';
+  font-weight: bold;
 }
 .benefit-feature .feature-description {
   color: #979797;
   text-align: center;
-  font-family: 'Roboto Regular', sans-serif;
+  font-family: 'Yantramanav';
+  font-size: 18px;
 }
